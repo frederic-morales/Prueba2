@@ -7,12 +7,10 @@ namespace Prueba2_Con_GITyGITHUB
     {
         public void ExecuteConeccionDB()
         {
-            MessageBox.Show("Prueba1");
             // Cadena de conexión
             string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; Integrated Security=True; TrustServerCertificate=True";
             //string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; User Id=FredericAdm; Password=Toko_2005; TrustServerCertificate=True";
             //localhost
-            MessageBox.Show(connectionString);
 
             try
             {
@@ -20,7 +18,6 @@ namespace Prueba2_Con_GITyGITHUB
                 {
                     // Abrir conexión
                     connection.Open();
-                    MessageBox.Show("Coneccion existosa");
 
                     // Ejemplo de consulta
                     string query = "SELECT * FROM Personas";
@@ -30,19 +27,18 @@ namespace Prueba2_Con_GITyGITHUB
                     SqlDataReader reader = command.ExecuteReader();
                     while (reader.Read())
                     {
-                        MessageBox.Show($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
+                       Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
                     }
                 }
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("SQlException" + ex.Message);
+                Console.WriteLine("SQlException" + ex.Message);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Exception" + ex.Message);
+                Console.WriteLine("Exception" + ex.Message);
             }
-            MessageBox.Show("Finalizando");
 
         }
     }
