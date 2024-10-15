@@ -1,3 +1,5 @@
+using BusinessEntity;
+
 namespace Login
 {
     public partial class Form1 : Form
