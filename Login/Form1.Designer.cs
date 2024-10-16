@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
-            btnminimizar = new PictureBox();
+            pictureBox1 = new PictureBox();
+            Btnminimizar = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             txtuser = new TextBox();
@@ -37,31 +39,48 @@
             btnlogin = new Button();
             label3 = new Label();
             linkpass = new LinkLabel();
-            btncerrar = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)btnminimizar).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)btncerrar).BeginInit();
+            Btncerrar = new PictureBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Btnminimizar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Btncerrar).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.AllowDrop = true;
             panel1.BackColor = Color.RoyalBlue;
+            panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(250, 330);
             panel1.TabIndex = 0;
+            panel1.MouseDown += panel1_MouseDown;
             // 
-            // btnminimizar
+            // pictureBox1
             // 
-            btnminimizar.BackColor = Color.DimGray;
-            btnminimizar.Image = Properties.Resources.icons8_minimize_window_24;
-            btnminimizar.Location = new Point(724, 0);
-            btnminimizar.Name = "btnminimizar";
-            btnminimizar.Size = new Size(24, 24);
-            btnminimizar.SizeMode = PictureBoxSizeMode.AutoSize;
-            btnminimizar.TabIndex = 9;
-            btnminimizar.TabStop = false;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 61);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(230, 191);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseDown += pictureBox1_MouseDown;
+            // 
+            // Btnminimizar
+            // 
+            Btnminimizar.BackColor = Color.DimGray;
+            Btnminimizar.Image = Properties.Resources.icons8_minimize_window_24;
+            Btnminimizar.Location = new Point(724, 0);
+            Btnminimizar.Name = "Btnminimizar";
+            Btnminimizar.Size = new Size(24, 24);
+            Btnminimizar.SizeMode = PictureBoxSizeMode.AutoSize;
+            Btnminimizar.TabIndex = 9;
+            Btnminimizar.TabStop = false;
+            Btnminimizar.Click += Btnminimizar_Click_1;
             // 
             // label1
             // 
@@ -87,8 +106,9 @@
             txtuser.Location = new Point(348, 75);
             txtuser.Name = "txtuser";
             txtuser.Size = new Size(366, 16);
-            txtuser.TabIndex = 2;
+            txtuser.TabIndex = 1;
             txtuser.Text = "USUARIO";
+            txtuser.TextChanged += txtuser_TextChanged;
             txtuser.Enter += txtuser_Enter;
             txtuser.Leave += txtuser_Leave;
             // 
@@ -113,7 +133,7 @@
             btnlogin.Location = new Point(395, 212);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(276, 40);
-            btnlogin.TabIndex = 3;
+            btnlogin.TabIndex = 0;
             btnlogin.Text = "INGRESAR";
             btnlogin.UseVisualStyleBackColor = false;
             // 
@@ -124,7 +144,7 @@
             label3.Location = new Point(498, 9);
             label3.Name = "label3";
             label3.Size = new Size(42, 15);
-            label3.TabIndex = 4;
+            label3.TabIndex = 3;
             label3.Text = "LOGIN";
             // 
             // linkpass
@@ -140,15 +160,16 @@
             linkpass.TabStop = true;
             linkpass.Text = "¿Ha olvidado su contraseña?";
             // 
-            // btncerrar
+            // Btncerrar
             // 
-            btncerrar.BackColor = Color.DimGray;
-            btncerrar.Image = Properties.Resources.icons8_close_window_24;
-            btncerrar.Location = new Point(754, 0);
-            btncerrar.Name = "btncerrar";
-            btncerrar.Size = new Size(23, 24);
-            btncerrar.TabIndex = 8;
-            btncerrar.TabStop = false;
+            Btncerrar.BackColor = Color.DimGray;
+            Btncerrar.Image = Properties.Resources.icons8_close_window_24;
+            Btncerrar.Location = new Point(754, 0);
+            Btncerrar.Name = "Btncerrar";
+            Btncerrar.Size = new Size(23, 24);
+            Btncerrar.TabIndex = 8;
+            Btncerrar.TabStop = false;
+            Btncerrar.Click += Btncerrar_Click_1;
             // 
             // Form1
             // 
@@ -156,8 +177,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(15, 15, 15);
             ClientSize = new Size(780, 330);
-            Controls.Add(btnminimizar);
-            Controls.Add(btncerrar);
+            Controls.Add(Btnminimizar);
+            Controls.Add(Btncerrar);
             Controls.Add(linkpass);
             Controls.Add(label3);
             Controls.Add(btnlogin);
@@ -171,8 +192,11 @@
             Opacity = 0.93D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)btnminimizar).EndInit();
-            ((System.ComponentModel.ISupportInitialize)btncerrar).EndInit();
+            MouseDown += Form1_MouseDown;
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Btnminimizar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Btncerrar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -187,7 +211,8 @@
         private Button btnlogin;
         private Label label3;
         private LinkLabel linkpass;
-        private PictureBox btnminimizar;
-        private PictureBox btncerrar;
+        private PictureBox Btnminimizar;
+        private PictureBox Btncerrar;
+        private PictureBox pictureBox1;
     }
 }
