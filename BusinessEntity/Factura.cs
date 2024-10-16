@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntity
 {
-    internal class Factura
+    public class Factura
     {
         public int Id { get; set; }
         public int IdOrden {  get; set; }   

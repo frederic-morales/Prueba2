@@ -1,7 +1,7 @@
-
 using System.Runtime.InteropServices;
-
-using BusinessEntity; //14c2d39963dd6983b19bb9cdbe5a17d2d076984d
+//using BusinessEntity; //14c2d39963dd6983b19bb9cdbe5a17d2d076984d
+using DataAccessDB;
+using BusinessEntity;
 
 namespace Login
 {
@@ -9,6 +9,8 @@ namespace Login
     {
         public Form1()
         {
+            //string mensaje = ConeccionDB.ExecuteConeccionDB();
+            //MessageBox.Show(mensaje);
             InitializeComponent();
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -24,7 +26,6 @@ namespace Login
             {
                 txtuser.Text = "";
                 txtuser.ForeColor = Color.LightGray;
-
             }
         }
 
@@ -57,7 +58,6 @@ namespace Login
             }
         }
 
-
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -89,7 +89,6 @@ namespace Login
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
-
         }
 
         private void txtuser_TextChanged(object sender, EventArgs e)

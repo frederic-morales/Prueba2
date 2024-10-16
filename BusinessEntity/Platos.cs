@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntity
 {
-    internal class Platos
+    public class Platos
     {
         public int Id { get; set; }
         public string Detalle_Plato { get; set; }   

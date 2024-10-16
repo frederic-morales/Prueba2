@@ -1,24 +1,16 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
 using BusinessEntity;
-using System.Diagnostics.Contracts;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Prueba2_Con_GITyGITHUB
+namespace DataAccessDB
 {
-    public class ConeccionDB
+    public static class ConeccionDB
     {
-
         // Cadena de conexión
-        string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; Integrated Security=True; TrustServerCertificate=True";
-        //string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; User Id=FredericAdm; Password=Toko_2005; TrustServerCertificate=True";
+        private static string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; Integrated Security=True; TrustServerCertificate=True";
         //localhost
-
-        string nombreUsuario = "Frede_24";
-        string contra = "Fre23";
-        string nombre = "Frederic";
-
-        public void ExecuteConeccionDB()
+        
+        public static void ExecuteConeccionDB() //public static string ExecuteConeccionDB() -- para hacer pruebas
         {
             try
             {
@@ -36,23 +28,25 @@ namespace Prueba2_Con_GITyGITHUB
                     while (reader.Read())
                     {
                        Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
+                       //return reader.GetString(0).ToString();
                     }
+                    //return "Mensaje en el try";
                 }
             }
             catch (SqlException ex)
             {
                 Console.WriteLine("SQlException" + ex.Message);
+                //return "Hola soy el error1";
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Exception" + ex.Message);
+                //return "Hola soy un error2";
             }
         }
-        
-        public void InsertUsers()
+        public static void InsertUsers()
         {
             string query = "INSERT INTO USUARIOS (NombreUsuario, Contraseña, Nombre) VALUES (@NombreUsuario, @Contraseña, @Nombre);";
-
             try
             {
                 // Uso de 'using' para manejar la conexión y liberar recursos automáticamente

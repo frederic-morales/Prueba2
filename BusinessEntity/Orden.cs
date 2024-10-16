@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntity
 {
-    internal class Orden
+    public class Orden
     {
         public int Id { get; set; } 
         public int IdPlato { get; set; }
