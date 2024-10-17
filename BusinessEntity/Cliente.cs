@@ -12,4 +12,6 @@ namespace BusinessEntity
         public string Nombre { get; set; }  
         public int Nit {  get; set; }   
     }
+
+
 }
