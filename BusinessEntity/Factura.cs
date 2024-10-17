@@ -12,6 +12,5 @@ namespace BusinessEntity
         public int IdOrden {  get; set; }   
         public string Detalle_Factura { get; set; }
         public DateOnly fecha { get; set; }
-
     }
 }

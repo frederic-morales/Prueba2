@@ -9,7 +9,8 @@ namespace BusinessEntity
     public class Platos
     {
         public int Id { get; set; }
+        public string Nombre { get; set; }  
         public string Detalle_Plato { get; set; }   
-        public decimal Precio { get; set; }
+        public double Precio { get; set; }
     }
 }

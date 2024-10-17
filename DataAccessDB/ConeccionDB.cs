@@ -8,66 +8,49 @@ namespace DataAccessDB
     {
         // Cadena de conexión
         private static string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; Integrated Security=True; TrustServerCertificate=True";
-        //localhost
         
-        public static void ExecuteConeccionDB() //public static string ExecuteConeccionDB() -- para hacer pruebas
+        public static void SelectUsuarios() // METODO DE SELECT
         {
+
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    // Abrir conexión
                     connection.Open();
 
-                    // Ejemplo de consulta
                     string query = "SELECT * FROM Personas";
                     SqlCommand command = new SqlCommand(query, connection);
 
-                    // Ejecutar la consulta
-                    SqlDataReader reader = command.ExecuteReader();
+                    SqlDataReader reader = command.ExecuteReader(); // Ejecuta la consulta
                     while (reader.Read())
                     {
                        Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
-                       //return reader.GetString(0).ToString();
                     }
-                    //return "Mensaje en el try";
                 }
             }
             catch (SqlException ex)
             {
                 Console.WriteLine("SQlException" + ex.Message);
-                //return "Hola soy el error1";
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Exception" + ex.Message);
-                //return "Hola soy un error2";
             }
         }
-        public static void InsertUsers()
+        public static void InsertUsuarios(string NombreUsuario, string Contraseña, string Nombre)
         {
             string query = "INSERT INTO USUARIOS (NombreUsuario, Contraseña, Nombre) VALUES (@NombreUsuario, @Contraseña, @Nombre);";
             try
             {
-                // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
                 {
-                    // Abre la conexión
-                    connection.Open();
-
-                    // Preparar el comando con la consulta y la conexión
-                    using (SqlCommand command = new SqlCommand(query, connection))
+                    connection.Open(); // Abre la conexión
+                    using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
                     {
-                        // Agregar los parámetros para evitar inyecciones SQL
-                        command.Parameters.AddWithValue("@NombreUsuario", "Frede_SM");
-                        command.Parameters.AddWithValue("@Contraseña", "Frede_205");
-                        command.Parameters.AddWithValue("@Nombre", "Frederic");
-
-                        // Ejecutar la consulta
-                        int rowsAffected = command.ExecuteNonQuery();
-
-                        // Verificar si la inserción fue exitosa
-                        Console.WriteLine($"{rowsAffected} fila(s) insertada(s) correctamente.");
+                        command.Parameters.AddWithValue("@NombreUsuario", NombreUsuario);
+                        command.Parameters.AddWithValue("@Contraseña", Contraseña);
+                        command.Parameters.AddWithValue("@Nombre", Nombre);
+                        command.ExecuteNonQuery();
                     }
                 }
             }
@@ -79,9 +62,84 @@ namespace DataAccessDB
             {
                 Console.WriteLine("Exception" + ex.Message);
             }
-
+        } 
+        public static void InsertPlatos(string Nombre, string Detalle_Plato, double Precio)
+        {
+            string query = "INSERT INTO PLATOS (Detalle_Plato, Precio, Nombre) VALUES (@Detalle_Plato, @Precio, @Nombre);";
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                {
+                    connection.Open(); // Abre la conexión
+                    using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
+                    {
+                        command.Parameters.AddWithValue("@Detalle_Plato", Detalle_Plato);
+                        command.Parameters.AddWithValue("@Precio", Precio);
+                        command.Parameters.AddWithValue("@Nombre", Nombre);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+            }
         }
+        public static void InsertClientes(string Nombre, int Nit)
+        {
+            string query = "INSERT INTO CLIENTES (Nombre, Nit) VALUES (@Nombre, @Nit);";
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                {
+                    connection.Open(); // Abre la conexión
+                    using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
+                    {
+                        command.Parameters.AddWithValue("@Nombre", Nombre);
+                        command.Parameters.AddWithValue("@Nit", Nit);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+            }
+        }
+        public static void InsertOrdenes(string Nombre, int Nit)
+        {
+            string query = "INSERT INTO CLIENTES (Nombre, Nit) VALUES (@Nombre, @Nit);";
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                {
+                    connection.Open(); // Abre la conexión
+                    using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
+                    {
+                        command.Parameters.AddWithValue("@Nombre", Nombre);
+                        command.Parameters.AddWithValue("@Nit", Nit);
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+            }
+            catch (Exception ex)
+            {
 
+                Console.WriteLine("Exception" + ex.Message);
+            }
+        }
     }
 
 }

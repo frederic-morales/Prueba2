@@ -14,6 +14,5 @@ namespace BusinessEntity
         public int mesa {  get; set; }  
         public string Detalle_orden { get; set; }
         public DateOnly fecha { get; set; }
-
     }
 }
