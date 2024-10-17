@@ -53,17 +53,19 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(250, 330);
+            panel1.Size = new Size(286, 440);
             panel1.TabIndex = 0;
             panel1.MouseDown += panel1_MouseDown;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 61);
+            pictureBox1.Location = new Point(0, 81);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 191);
+            pictureBox1.Size = new Size(263, 255);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -74,7 +76,8 @@
             // 
             Btnminimizar.BackColor = Color.DimGray;
             Btnminimizar.Image = Properties.Resources.icons8_minimize_window_24;
-            Btnminimizar.Location = new Point(724, 0);
+            Btnminimizar.Location = new Point(827, 0);
+            Btnminimizar.Margin = new Padding(3, 4, 3, 4);
             Btnminimizar.Name = "Btnminimizar";
             Btnminimizar.Size = new Size(24, 24);
             Btnminimizar.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -85,17 +88,17 @@
             // label1
             // 
             label1.BackColor = Color.White;
-            label1.Location = new Point(348, 94);
+            label1.Location = new Point(398, 125);
             label1.Name = "label1";
-            label1.Size = new Size(366, 1);
+            label1.Size = new Size(418, 1);
             label1.TabIndex = 1;
             // 
             // label2
             // 
             label2.BackColor = Color.White;
-            label2.Location = new Point(348, 184);
+            label2.Location = new Point(398, 245);
             label2.Name = "label2";
-            label2.Size = new Size(366, 1);
+            label2.Size = new Size(418, 1);
             label2.TabIndex = 1;
             // 
             // txtuser
@@ -103,9 +106,10 @@
             txtuser.BackColor = Color.FromArgb(15, 15, 15);
             txtuser.BorderStyle = BorderStyle.None;
             txtuser.ForeColor = SystemColors.ScrollBar;
-            txtuser.Location = new Point(348, 75);
+            txtuser.Location = new Point(398, 100);
+            txtuser.Margin = new Padding(3, 4, 3, 4);
             txtuser.Name = "txtuser";
-            txtuser.Size = new Size(366, 16);
+            txtuser.Size = new Size(418, 20);
             txtuser.TabIndex = 1;
             txtuser.Text = "USUARIO";
             txtuser.TextChanged += txtuser_TextChanged;
@@ -117,9 +121,10 @@
             txtpass.BackColor = Color.FromArgb(15, 15, 15);
             txtpass.BorderStyle = BorderStyle.None;
             txtpass.ForeColor = SystemColors.ScrollBar;
-            txtpass.Location = new Point(348, 165);
+            txtpass.Location = new Point(398, 220);
+            txtpass.Margin = new Padding(3, 4, 3, 4);
             txtpass.Name = "txtpass";
-            txtpass.Size = new Size(366, 16);
+            txtpass.Size = new Size(418, 20);
             txtpass.TabIndex = 2;
             txtpass.Text = "CONTRASEÑA";
             txtpass.Enter += txtpass_Enter;
@@ -130,20 +135,22 @@
             btnlogin.BackColor = Color.FromArgb(40, 40, 40);
             btnlogin.FlatStyle = FlatStyle.Flat;
             btnlogin.ForeColor = SystemColors.ButtonFace;
-            btnlogin.Location = new Point(395, 212);
+            btnlogin.Location = new Point(451, 283);
+            btnlogin.Margin = new Padding(3, 4, 3, 4);
             btnlogin.Name = "btnlogin";
-            btnlogin.Size = new Size(276, 40);
+            btnlogin.Size = new Size(315, 53);
             btnlogin.TabIndex = 0;
             btnlogin.Text = "INGRESAR";
             btnlogin.UseVisualStyleBackColor = false;
+            btnlogin.Click += btnlogin_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.ForeColor = SystemColors.AppWorkspace;
-            label3.Location = new Point(498, 9);
+            label3.Location = new Point(569, 12);
             label3.Name = "label3";
-            label3.Size = new Size(42, 15);
+            label3.Size = new Size(51, 20);
             label3.TabIndex = 3;
             label3.Text = "LOGIN";
             // 
@@ -153,9 +160,9 @@
             linkpass.AutoSize = true;
             linkpass.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkpass.LinkColor = Color.FromArgb(192, 192, 255);
-            linkpass.Location = new Point(442, 274);
+            linkpass.Location = new Point(505, 365);
             linkpass.Name = "linkpass";
-            linkpass.Size = new Size(199, 17);
+            linkpass.Size = new Size(257, 21);
             linkpass.TabIndex = 5;
             linkpass.TabStop = true;
             linkpass.Text = "¿Ha olvidado su contraseña?";
@@ -164,19 +171,20 @@
             // 
             Btncerrar.BackColor = Color.DimGray;
             Btncerrar.Image = Properties.Resources.icons8_close_window_24;
-            Btncerrar.Location = new Point(754, 0);
+            Btncerrar.Location = new Point(862, 0);
+            Btncerrar.Margin = new Padding(3, 4, 3, 4);
             Btncerrar.Name = "Btncerrar";
-            Btncerrar.Size = new Size(23, 24);
+            Btncerrar.Size = new Size(26, 32);
             Btncerrar.TabIndex = 8;
             Btncerrar.TabStop = false;
             Btncerrar.Click += Btncerrar_Click_1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(15, 15, 15);
-            ClientSize = new Size(780, 330);
+            ClientSize = new Size(891, 440);
             Controls.Add(Btnminimizar);
             Controls.Add(Btncerrar);
             Controls.Add(linkpass);
@@ -188,6 +196,7 @@
             Controls.Add(label1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Opacity = 0.93D;
             StartPosition = FormStartPosition.CenterScreen;

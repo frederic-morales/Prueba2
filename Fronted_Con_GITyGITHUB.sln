@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessDB", "DataAccessD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessEntity", "BusinessEntity\BusinessEntity.csproj", "{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheDebugLunch", "..\..\..\source\repos\Restaurante\TheDebugLunch\TheDebugLunch.csproj", "{E8D087A9-4081-4655-AD1E-8D79C0FF828F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8D087A9-4081-4655-AD1E-8D79C0FF828F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8D087A9-4081-4655-AD1E-8D79C0FF828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8D087A9-4081-4655-AD1E-8D79C0FF828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8D087A9-4081-4655-AD1E-8D79C0FF828F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

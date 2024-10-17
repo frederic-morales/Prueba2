@@ -1,0 +1,12 @@
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\bin\Debug\net8.0\BusinessEntity.deps.json
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\bin\Debug\net8.0\BusinessEntity.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\bin\Debug\net8.0\BusinessEntity.pdb
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.AssemblyInfoInputs.cache
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.AssemblyInfo.cs
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.csproj.CoreCompileInputs.cache
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.sourcelink.json
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\refint\BusinessEntity.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.pdb
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\BusinessEntity\obj\Debug\net8.0\ref\BusinessEntity.dll
