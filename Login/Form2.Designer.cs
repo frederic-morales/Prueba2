@@ -31,11 +31,12 @@
             buttonCLientes = new Button();
             buttonPlatos = new Button();
             buttonUsuario = new Button();
+            btnOrdenes = new Button();
             SuspendLayout();
             // 
             // buttonCLientes
             // 
-            buttonCLientes.Location = new Point(94, 92);
+            buttonCLientes.Location = new Point(94, 42);
             buttonCLientes.Name = "buttonCLientes";
             buttonCLientes.Size = new Size(94, 29);
             buttonCLientes.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // buttonPlatos
             // 
-            buttonPlatos.Location = new Point(94, 168);
+            buttonPlatos.Location = new Point(94, 107);
             buttonPlatos.Name = "buttonPlatos";
             buttonPlatos.Size = new Size(94, 29);
             buttonPlatos.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // buttonUsuario
             // 
-            buttonUsuario.Location = new Point(94, 259);
+            buttonUsuario.Location = new Point(94, 204);
             buttonUsuario.Name = "buttonUsuario";
             buttonUsuario.Size = new Size(94, 29);
             buttonUsuario.TabIndex = 2;
@@ -63,16 +64,28 @@
             buttonUsuario.UseVisualStyleBackColor = true;
             buttonUsuario.Click += buttonUsuario_Click;
             // 
+            // btnOrdenes
+            // 
+            btnOrdenes.Location = new Point(94, 287);
+            btnOrdenes.Name = "btnOrdenes";
+            btnOrdenes.Size = new Size(94, 29);
+            btnOrdenes.TabIndex = 3;
+            btnOrdenes.Text = "Ordenes";
+            btnOrdenes.UseVisualStyleBackColor = true;
+            btnOrdenes.Click += btnOrdenes_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnOrdenes);
             Controls.Add(buttonUsuario);
             Controls.Add(buttonPlatos);
             Controls.Add(buttonCLientes);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             ResumeLayout(false);
         }
 
@@ -81,5 +94,6 @@
         private Button buttonCLientes;
         private Button buttonPlatos;
         private Button buttonUsuario;
+        private Button btnOrdenes;
     }
 }

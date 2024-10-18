@@ -156,3 +156,5 @@ C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\obj\Debug\net8.0-w
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\obj\Debug\net8.0-windows\Login.pdb
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\obj\Debug\net8.0-windows\Login.genruntimeconfig.cache
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\obj\Debug\net8.0-windows\ref\Login.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\Login\obj\Debug\net8.0-windows\Login.Detallles_Orden.resources
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\Login\obj\Debug\net8.0-windows\Login.Ordenes.resources

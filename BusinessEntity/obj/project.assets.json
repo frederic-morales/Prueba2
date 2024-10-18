@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tocom\\.nuget\\packages\\": {}
+    "C:\\Users\\ekris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+      "projectUniqueName": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
       "projectName": "BusinessEntity",
-      "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
-      "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\obj\\",
+      "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+      "packagesPath": "C:\\Users\\ekris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ekris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

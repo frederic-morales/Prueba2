@@ -37,5 +37,17 @@ namespace Login
             plato.Show();
             this.Hide();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOrdenes_Click(object sender, EventArgs e)
+        {
+            Ordenes ordenes = new Ordenes();
+            ordenes.Show();
+            this.Hide();
+        }
     }
 }

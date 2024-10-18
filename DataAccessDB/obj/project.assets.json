@@ -1809,19 +1809,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tocom\\.nuget\\packages\\": {}
+    "C:\\Users\\ekris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+      "projectUniqueName": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
       "projectName": "DataAccessDB",
-      "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
-      "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\obj\\",
+      "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+      "packagesPath": "C:\\Users\\ekris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ekris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1836,8 +1836,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
-              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
+            "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+              "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
             }
           }
         }

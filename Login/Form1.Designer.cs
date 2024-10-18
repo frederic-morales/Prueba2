@@ -38,7 +38,6 @@
             txtpass = new TextBox();
             btnlogin = new Button();
             label3 = new Label();
-            linkpass = new LinkLabel();
             Btncerrar = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -154,19 +153,6 @@
             label3.TabIndex = 3;
             label3.Text = "LOGIN";
             // 
-            // linkpass
-            // 
-            linkpass.ActiveLinkColor = Color.Blue;
-            linkpass.AutoSize = true;
-            linkpass.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkpass.LinkColor = Color.FromArgb(192, 192, 255);
-            linkpass.Location = new Point(505, 365);
-            linkpass.Name = "linkpass";
-            linkpass.Size = new Size(257, 21);
-            linkpass.TabIndex = 5;
-            linkpass.TabStop = true;
-            linkpass.Text = "¿Ha olvidado su contraseña?";
-            // 
             // Btncerrar
             // 
             Btncerrar.BackColor = Color.DimGray;
@@ -187,7 +173,6 @@
             ClientSize = new Size(891, 440);
             Controls.Add(Btnminimizar);
             Controls.Add(Btncerrar);
-            Controls.Add(linkpass);
             Controls.Add(label3);
             Controls.Add(btnlogin);
             Controls.Add(txtpass);
@@ -201,6 +186,7 @@
             Opacity = 0.93D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += Form1_Load;
             MouseDown += Form1_MouseDown;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -219,7 +205,6 @@
         private TextBox txtpass;
         private Button btnlogin;
         private Label label3;
-        private LinkLabel linkpass;
         private PictureBox Btnminimizar;
         private PictureBox Btncerrar;
         private PictureBox pictureBox1;
