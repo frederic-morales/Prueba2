@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using DataAccessDB;
 using BusinessEntity;
 
+
 namespace Login
 {
     public partial class Form1 : Form
@@ -95,6 +96,16 @@ namespace Login
         private void txtuser_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+
+            }
         }
     }
 }

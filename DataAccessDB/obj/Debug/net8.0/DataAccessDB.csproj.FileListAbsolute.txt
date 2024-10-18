@@ -1,0 +1,16 @@
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.deps.json
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.pdb
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\bin\Debug\net8.0\BusinessEntity.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\bin\Debug\net8.0\BusinessEntity.pdb
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.csproj.AssemblyReference.cache
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.AssemblyInfoInputs.cache
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.AssemblyInfo.cs
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.csproj.CoreCompileInputs.cache
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.sourcelink.json
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAcce.81D215AE.Up2Date
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\refint\DataAccessDB.dll
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.pdb
+C:\Users\ekris\OneDrive\Desktop\github\Prueba2\DataAccessDB\obj\Debug\net8.0\ref\DataAccessDB.dll
