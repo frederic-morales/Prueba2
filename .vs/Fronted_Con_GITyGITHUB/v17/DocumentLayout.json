@@ -1,12 +1,153 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\businessentity\\platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|solutionrelative:businessentity\\platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\businessentity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|solutionrelative:businessentity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\businessentity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|solutionrelative:businessentity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\businessentity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|solutionrelative:businessentity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\businessentity\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8CB289-F3DC-41EB-AE0A-25E8E3883854}|BusinessEntity\\BusinessEntity.csproj|solutionrelative:businessentity\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConeccionDB.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAMAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:39:18.045Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs",
+              "RelativeToolTip": "Login\\Form1.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:40:27.178Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T01:59:17.865Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Platos.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Platos.cs",
+              "RelativeDocumentMoniker": "BusinessEntity\\Platos.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Platos.cs",
+              "RelativeToolTip": "BusinessEntity\\Platos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:27:56.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Orden.cs",
+              "RelativeDocumentMoniker": "BusinessEntity\\Orden.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Orden.cs",
+              "RelativeToolTip": "BusinessEntity\\Orden.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:06:47.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Factura.cs",
+              "RelativeDocumentMoniker": "BusinessEntity\\Factura.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Factura.cs",
+              "RelativeToolTip": "BusinessEntity\\Factura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:14:21.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Cliente.cs",
+              "RelativeDocumentMoniker": "BusinessEntity\\Cliente.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Cliente.cs",
+              "RelativeToolTip": "BusinessEntity\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:05:39.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Usuario.cs",
+              "RelativeDocumentMoniker": "BusinessEntity\\Usuario.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\Usuario.cs",
+              "RelativeToolTip": "BusinessEntity\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:07:53.093Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

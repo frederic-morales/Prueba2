@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {}
+    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+        "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
         "projectName": "BusinessEntity",
-        "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
-        "packagesPath": "C:\\Users\\ekris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\obj\\",
+        "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+        "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ekris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,17 +65,17 @@
         }
       }
     },
-    "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
+    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+        "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
         "projectName": "DataAccessDB",
-        "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
-        "packagesPath": "C:\\Users\\ekris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\obj\\",
+        "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+        "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ekris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
-                "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
+              "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+                "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
               }
             }
           }

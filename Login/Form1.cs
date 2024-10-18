@@ -1,7 +1,6 @@
 using System.Runtime.InteropServices;
 //using BusinessEntity; //14c2d39963dd6983b19bb9cdbe5a17d2d076984d
 using DataAccessDB;
-using BusinessEntity;
 
 
 namespace Login
@@ -100,11 +99,22 @@ namespace Login
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            {
-                Form2 form2 = new Form2();
-                form2.Show();
-                this.Hide();
 
+            string usuario = txtuser.Text;
+            string contraseña = txtpass.Text;
+            bool aceptarUsuario = ConeccionDB.ValidarUsuario(usuario, contraseña);
+
+            if (aceptarUsuario)
+            {
+                {
+                    Form2 form2 = new Form2();
+                    form2.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contrasña incorrectos");
             }
         }
     }

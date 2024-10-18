@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
 using BusinessEntity;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace DataAccessDB
 {
@@ -140,6 +142,52 @@ namespace DataAccessDB
                 Console.WriteLine("Exception" + ex.Message);
             }
         }
+        public static bool ValidarUsuario(string nombreUsuario, string contraseña)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT Contraseña FROM Usuarios WHERE NombreUsuario = @nombreUsuario";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string contraseñaDB = reader["Contraseña"].ToString();
+
+                                if (contraseñaDB == contraseña)
+                                {
+                                    Console.WriteLine("Login exitoso.");
+                                    return true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Contraseña incorrecta.");
+                                    return false;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Usuario no encontrado.");
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+                return false;
+            }
+        }
+
     }
 
 }
