@@ -1828,19 +1828,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ekris\\.nuget\\packages\\": {}
+    "C:\\Users\\tocom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Login.csproj",
+      "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Login.csproj",
-      "packagesPath": "C:\\Users\\ekris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\obj\\",
+      "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Login.csproj",
+      "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ekris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1855,11 +1855,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
-              "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
+            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
             },
-            "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
-              "projectPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\DataAccessDB\\DataAccessDB.csproj"
+            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
+              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj"
             }
           }
         }

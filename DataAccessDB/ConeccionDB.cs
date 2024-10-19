@@ -171,7 +171,8 @@ namespace DataAccessDB
                                     Console.WriteLine("Contraseña incorrecta.");
                                     return false;
                                 }
-                            }
+                            } 
+
                             else
                             {
                                 Console.WriteLine("Usuario no encontrado.");

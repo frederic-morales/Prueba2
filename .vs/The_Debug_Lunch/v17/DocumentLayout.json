@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\",
+  "WorkspaceRootPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\ekris\\onedrive\\desktop\\github\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConeccionDB.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:30:43.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs",
               "RelativeDocumentMoniker": "Login\\Form1.cs",
-              "ToolTip": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T19:49:43.413Z",
@@ -34,12 +51,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form2.cs",
               "RelativeDocumentMoniker": "Login\\Form2.cs",
               "ToolTip": "C:\\Users\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Login\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\ekris\\OneDrive\\Desktop\\github\\Prueba2\\Login\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T19:49:31.47Z"
             }
