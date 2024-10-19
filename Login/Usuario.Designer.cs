@@ -30,8 +30,8 @@
         {
             txtUserName = new TextBox();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtPassword = new TextBox();
+            txtName = new TextBox();
             label2 = new Label();
             label3 = new Label();
             btnRegresar = new Button();
@@ -55,19 +55,19 @@
             label1.TabIndex = 1;
             label1.Text = "Nombre De Usuario";
             // 
-            // textBox1
+            // txtPassword
             // 
-            textBox1.Location = new Point(50, 171);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(179, 27);
-            textBox1.TabIndex = 2;
+            txtPassword.Location = new Point(50, 171);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(179, 27);
+            txtPassword.TabIndex = 2;
             // 
-            // textBox2
+            // txtName
             // 
-            textBox2.Location = new Point(50, 276);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(179, 27);
-            textBox2.TabIndex = 3;
+            txtName.Location = new Point(50, 276);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(179, 27);
+            txtName.TabIndex = 3;
             // 
             // label2
             // 
@@ -105,6 +105,7 @@
             btnAgregarUsuario.TabIndex = 7;
             btnAgregarUsuario.Text = "Agregar";
             btnAgregarUsuario.UseVisualStyleBackColor = true;
+            btnAgregarUsuario.Click += btnAgregarUsuario_Click;
             // 
             // Usuario
             // 
@@ -115,8 +116,8 @@
             Controls.Add(btnRegresar);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtName);
+            Controls.Add(txtPassword);
             Controls.Add(label1);
             Controls.Add(txtUserName);
             Name = "Usuario";
@@ -130,8 +131,8 @@
 
         private TextBox txtUserName;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtPassword;
+        private TextBox txtName;
         private Label label2;
         private Label label3;
         private Button btnRegresar;

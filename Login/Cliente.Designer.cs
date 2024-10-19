@@ -86,6 +86,7 @@
             btnAgregar.TabIndex = 5;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // Cliente
             // 
@@ -100,6 +101,7 @@
             Controls.Add(label1);
             Name = "Cliente";
             Text = "Cliente";
+            Load += Cliente_Load;
             ResumeLayout(false);
             PerformLayout();
         }
