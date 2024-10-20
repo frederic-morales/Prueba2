@@ -35,5 +35,42 @@ namespace Login
             detallles_Orden.Show();
             this.Hide();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ordenes_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void InicializarDataGridView()
+        {
+            // Configurar DataGridView
+            //dataGridViewPlatos.DataSource = ordenPlatos;
+            dataGridViewPlatos.AutoGenerateColumns = true;
+        }
+
+        private void btnAgregarPlato_Click(object sender, EventArgs e)
+        {
+            dataGridViewPlatos.Rows.Add("Nombre", "Detalle1", 34);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewPlatos.SelectedRows.Count > 0)
+            {
+                // Obtener el índice de la fila seleccionada
+                int indiceFila = dataGridViewPlatos.SelectedRows[0].Index;
+                // Refrescar el DataGridView para mostrar los cambios
+                dataGridViewPlatos.Rows.RemoveAt(indiceFila);
+                MessageBox.Show("¡Elemento eliminado correctamente!");
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecciona una fila para eliminar.");
+            }
+        }
     }
 }
