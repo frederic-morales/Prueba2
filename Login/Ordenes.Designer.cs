@@ -37,7 +37,7 @@
             btnGenerarOrden = new Button();
             btnRegresaraMenu = new Button();
             btnAgregarPlato = new Button();
-            txtNItCliente = new TextBox();
+            txtNitCliente = new TextBox();
             label1 = new Label();
             label4 = new Label();
             label5 = new Label();
@@ -45,7 +45,12 @@
             Nombre = new DataGridViewTextBoxColumn();
             Detalle = new DataGridViewTextBoxColumn();
             Precio = new DataGridViewTextBoxColumn();
+            Cantidad = new DataGridViewTextBoxColumn();
             button1 = new Button();
+            txtCantidad = new TextBox();
+            label6 = new Label();
+            txtDetalleOrden = new TextBox();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewPlatos).BeginInit();
             SuspendLayout();
             // 
@@ -53,7 +58,7 @@
             // 
             txtNombreCliente.Location = new Point(23, 469);
             txtNombreCliente.Name = "txtNombreCliente";
-            txtNombreCliente.Size = new Size(181, 27);
+            txtNombreCliente.Size = new Size(148, 27);
             txtNombreCliente.TabIndex = 0;
             txtNombreCliente.TextChanged += txtNombreCliente_TextChanged;
             // 
@@ -66,7 +71,7 @@
             // 
             // txtMesa
             // 
-            txtMesa.Location = new Point(408, 470);
+            txtMesa.Location = new Point(331, 471);
             txtMesa.Name = "txtMesa";
             txtMesa.Size = new Size(125, 27);
             txtMesa.TabIndex = 2;
@@ -92,7 +97,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(408, 433);
+            label3.Location = new Point(331, 435);
             label3.Name = "label3";
             label3.Size = new Size(44, 20);
             label3.TabIndex = 6;
@@ -101,9 +106,9 @@
             // 
             // btnGenerarOrden
             // 
-            btnGenerarOrden.Location = new Point(566, 468);
+            btnGenerarOrden.Location = new Point(652, 432);
             btnGenerarOrden.Name = "btnGenerarOrden";
-            btnGenerarOrden.Size = new Size(165, 29);
+            btnGenerarOrden.Size = new Size(91, 64);
             btnGenerarOrden.TabIndex = 7;
             btnGenerarOrden.Text = "Finzalizar Orden";
             btnGenerarOrden.UseVisualStyleBackColor = true;
@@ -111,7 +116,7 @@
             // 
             // btnRegresaraMenu
             // 
-            btnRegresaraMenu.Location = new Point(771, 471);
+            btnRegresaraMenu.Location = new Point(786, 450);
             btnRegresaraMenu.Name = "btnRegresaraMenu";
             btnRegresaraMenu.Size = new Size(94, 29);
             btnRegresaraMenu.TabIndex = 8;
@@ -121,7 +126,7 @@
             // 
             // btnAgregarPlato
             // 
-            btnAgregarPlato.Location = new Point(187, 102);
+            btnAgregarPlato.Location = new Point(334, 104);
             btnAgregarPlato.Name = "btnAgregarPlato";
             btnAgregarPlato.Size = new Size(141, 29);
             btnAgregarPlato.TabIndex = 11;
@@ -129,17 +134,17 @@
             btnAgregarPlato.UseVisualStyleBackColor = true;
             btnAgregarPlato.Click += btnAgregarPlato_Click;
             // 
-            // txtNItCliente
+            // txtNitCliente
             // 
-            txtNItCliente.Location = new Point(227, 471);
-            txtNItCliente.Name = "txtNItCliente";
-            txtNItCliente.Size = new Size(144, 27);
-            txtNItCliente.TabIndex = 12;
+            txtNitCliente.Location = new Point(180, 470);
+            txtNitCliente.Name = "txtNitCliente";
+            txtNitCliente.Size = new Size(144, 27);
+            txtNitCliente.TabIndex = 12;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(227, 435);
+            label1.Location = new Point(180, 435);
             label1.Name = "label1";
             label1.Size = new Size(32, 20);
             label1.TabIndex = 13;
@@ -168,12 +173,12 @@
             dataGridViewPlatos.AllowUserToAddRows = false;
             dataGridViewPlatos.AllowUserToDeleteRows = false;
             dataGridViewPlatos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewPlatos.Columns.AddRange(new DataGridViewColumn[] { Nombre, Detalle, Precio });
+            dataGridViewPlatos.Columns.AddRange(new DataGridViewColumn[] { Nombre, Detalle, Precio, Cantidad });
             dataGridViewPlatos.Location = new Point(28, 189);
             dataGridViewPlatos.Name = "dataGridViewPlatos";
             dataGridViewPlatos.ReadOnly = true;
             dataGridViewPlatos.RowHeadersWidth = 51;
-            dataGridViewPlatos.Size = new Size(551, 213);
+            dataGridViewPlatos.Size = new Size(598, 213);
             dataGridViewPlatos.TabIndex = 16;
             // 
             // Nombre
@@ -200,9 +205,17 @@
             Precio.ReadOnly = true;
             Precio.Width = 125;
             // 
+            // Cantidad
+            // 
+            Cantidad.HeaderText = "Cantidad";
+            Cantidad.MinimumWidth = 6;
+            Cantidad.Name = "Cantidad";
+            Cantidad.ReadOnly = true;
+            Cantidad.Width = 125;
+            // 
             // button1
             // 
-            button1.Location = new Point(611, 274);
+            button1.Location = new Point(652, 282);
             button1.Name = "button1";
             button1.Size = new Size(213, 47);
             button1.TabIndex = 17;
@@ -210,17 +223,53 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // txtCantidad
+            // 
+            txtCantidad.Location = new Point(180, 104);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(125, 27);
+            txtCantidad.TabIndex = 18;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(180, 74);
+            label6.Name = "label6";
+            label6.Size = new Size(69, 20);
+            label6.TabIndex = 19;
+            label6.Text = "Cantidad";
+            // 
+            // txtDetalleOrden
+            // 
+            txtDetalleOrden.Location = new Point(462, 471);
+            txtDetalleOrden.Name = "txtDetalleOrden";
+            txtDetalleOrden.Size = new Size(164, 27);
+            txtDetalleOrden.TabIndex = 20;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(462, 435);
+            label7.Name = "label7";
+            label7.Size = new Size(102, 20);
+            label7.TabIndex = 21;
+            label7.Text = "Detalle Orden";
+            // 
             // Ordenes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(909, 534);
+            Controls.Add(label7);
+            Controls.Add(txtDetalleOrden);
+            Controls.Add(label6);
+            Controls.Add(txtCantidad);
             Controls.Add(button1);
             Controls.Add(dataGridViewPlatos);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label1);
-            Controls.Add(txtNItCliente);
+            Controls.Add(txtNitCliente);
             Controls.Add(btnAgregarPlato);
             Controls.Add(btnRegresaraMenu);
             Controls.Add(btnGenerarOrden);
@@ -249,7 +298,7 @@
         private Button btnGenerarOrden;
         private Button btnRegresaraMenu;
         private Button btnAgregarPlato;
-        private TextBox txtNItCliente;
+        private TextBox txtNitCliente;
         private Label label1;
         private Label label4;
         private Label label5;
@@ -258,5 +307,10 @@
         private DataGridViewTextBoxColumn Detalle;
         private DataGridViewTextBoxColumn Precio;
         private Button button1;
+        private DataGridViewTextBoxColumn Cantidad;
+        private TextBox txtCantidad;
+        private Label label6;
+        private TextBox txtDetalleOrden;
+        private Label label7;
     }
 }

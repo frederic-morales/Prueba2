@@ -29,14 +29,6 @@ namespace Login
         {
 
         }
-
-        private void btnGenerarOrden_Click(object sender, EventArgs e)
-        {
-            Detallles_Orden detallles_Orden = new Detallles_Orden();
-            detallles_Orden.Show();
-            this.Hide();
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -56,18 +48,21 @@ namespace Login
         private void btnAgregarPlato_Click(object sender, EventArgs e)
         {
             string nombrePlato = txtNombrePlato.Text;
+            string cantidad = txtCantidad.Text;
             List<string> datosPlato = ConeccionDB.obtenerPlato(nombrePlato);
 
             if (datosPlato.Count() == 3)
             {
-                dataGridViewPlatos.Rows.Add(datosPlato[0], datosPlato[1], datosPlato[2]);
+                dataGridViewPlatos.Rows.Add(datosPlato[0], datosPlato[1], datosPlato[2], cantidad);
                 txtNombrePlato.Text = "";
+                txtCantidad.Text = "";
                 //MessageBox.Show("Agrendo plato");
             }
             else
             {
                 MessageBox.Show("No se encontro el plato");
                 txtNombrePlato.Text = "";
+                txtCantidad.Text = "";
             }
 
             //MessageBox.Show($"Index: {datosPlato.Count()}, {datosPlato[0]} {datosPlato[1]}, {datosPlato[2]}");
@@ -77,9 +72,7 @@ namespace Login
         {
             if (dataGridViewPlatos.SelectedRows.Count > 0)
             {
-                // Obtener el índice de la fila seleccionada
                 int indiceFila = dataGridViewPlatos.SelectedRows[0].Index;
-                // Refrescar el DataGridView para mostrar los cambios
                 dataGridViewPlatos.Rows.RemoveAt(indiceFila);
                 MessageBox.Show("¡Elemento eliminado correctamente!");
             }
@@ -88,5 +81,25 @@ namespace Login
                 MessageBox.Show("Por favor, selecciona una fila para eliminar.");
             }
         }
+        private void btnGenerarOrden_Click(object sender, EventArgs e)
+        {
+            string NitIngresado = txtNitCliente.Text;
+            int IdCliente = ConeccionDB.obtenerIdCliente(Convert.ToInt32(NitIngresado));
+
+            if (IdCliente != 0)
+            {
+                string mesa = txtMesa.Text;
+                string Detalle_Orden = txtDetalleOrden.Text;
+                DateTime Fecha = DateTime.Now;  
+                int IdOrden = ConeccionDB.InsertOrden(IdCliente, Convert.ToInt32(mesa), Detalle_Orden, Fecha.Date);
+                MessageBox.Show("Orden Generada con exito");
+                MessageBox.Show($"{IdOrden}");
+            }
+            else
+            {
+                MessageBox.Show("No existe cliente con ese NIT");
+            }
+        }
+
     }
 }

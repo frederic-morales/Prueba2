@@ -15,7 +15,6 @@ namespace DataAccessDB
         //METODOS DE SELECT
         public static void SelectUsuarios() // TRAER LOS USUARIOS
         {
-
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -41,7 +40,6 @@ namespace DataAccessDB
                 Console.WriteLine("Exception" + ex.Message);
             }
         }
-
         public static List<string> obtenerPlato(string nombrePlato) 
         {
             List<string> datosPlato = new List<string>(); 
@@ -81,6 +79,41 @@ namespace DataAccessDB
                 return datosPlato;
             }
         }
+        public static int obtenerIdCliente(int NitIngresado)
+        {
+            int IdCliente = 0;  
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT Id FROM CLIENTES WHERE nit = @NitIngresado";
+
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@NitIngresado", NitIngresado);
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        //Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
+                        IdCliente = reader.GetInt32(0); 
+                    }
+                }
+                return IdCliente;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+                return IdCliente;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+                return IdCliente;
+            }
+        }
+
 
         //METODOS DE INSERCIÓN
         public static string InsertUsuarios(string NombreUsuario, string Contraseña, string Nombre)
@@ -258,32 +291,6 @@ namespace DataAccessDB
                 return "Error" + ex.Message;
             }
         }
-        public static void InsertOrdenes(string Nombre, int Nit)
-        {
-            string query = "INSERT INTO CLIENTES (Nombre, Nit) VALUES (@Nombre, @Nit);";
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
-                {
-                    connection.Open(); // Abre la conexión
-                    using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
-                    {
-                        command.Parameters.AddWithValue("@Nombre", Nombre);
-                        command.Parameters.AddWithValue("@Nit", Nit);
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (SqlException ex)
-            {
-                Console.WriteLine("SQlException" + ex.Message);
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine("Exception" + ex.Message);
-            }
-        }
         public static bool ValidarUsuario(string nombreUsuario, string contraseña)
         {
             try
@@ -331,6 +338,48 @@ namespace DataAccessDB
             }
         }
 
+
+        //INSERCION EN ORDENES Y DETALLES ORDENES
+        public static int InsertOrden(int IdCliente, int Mesa, string Detalle_Orden, DateTime Fecha)
+        {
+            int IdOrdenGenerada = 0;
+            try
+            {
+                string query = @"INSERT INTO ORDENES (IdCliente, Mesa, Detalle_Orden, Fecha) 
+                                VALUES (@IdCliente, @Mesa, @Detalle_Orden, @Fecha);
+                                SELECT SCOPE_IDENTITY();";
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                {
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@IdCliente", IdCliente);
+                        command.Parameters.AddWithValue("@Mesa", Mesa);
+                        command.Parameters.AddWithValue("@Detalle_Orden", Detalle_Orden);
+                        command.Parameters.AddWithValue("@Fecha", Fecha.Date);
+
+                        object result = command.ExecuteScalar();    
+                        int IdGenerado = Convert.ToInt32(result);
+                        IdOrdenGenerada = IdGenerado;
+                        //command.ExecuteNonQuery();
+                    }
+                }
+
+                return IdOrdenGenerada;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+                //return "Error" + ex.Message;
+                return IdOrdenGenerada;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+                //return "Error" + ex.Message;
+                return IdOrdenGenerada;
+            }
+        }
     }
 
 }
