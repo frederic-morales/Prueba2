@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ConeccionDB.cs",
               "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
               "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
               "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAE8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T05:21:37.89Z",
               "IsPinned": true,
@@ -58,14 +58,14 @@
               "RelativeDocumentMoniker": "Login\\Ordenes.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs",
               "RelativeToolTip": "Login\\Ordenes.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAIA7wEMAAABGAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwEEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T20:07:39.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Ordenes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs",
               "RelativeDocumentMoniker": "Login\\Ordenes.cs",

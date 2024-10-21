@@ -10,7 +10,10 @@ namespace DataAccessDB
     {
         // Cadena de conexión
         private static string connectionString = "Server=LAPTOPDELL\\MSSQLSERVER01; Database=FredericDB; Integrated Security=True; TrustServerCertificate=True";
-        public static void SelectUsuarios() // METODO DE SELECT
+        
+        
+        //METODOS DE SELECT
+        public static void SelectUsuarios() // TRAER LOS USUARIOS
         {
 
             try
@@ -19,7 +22,7 @@ namespace DataAccessDB
                 {
                     connection.Open();
 
-                    string query = "SELECT * FROM Personas";
+                    string query = "SELECT * FROM USUARIOS";
                     SqlCommand command = new SqlCommand(query, connection);
 
                     SqlDataReader reader = command.ExecuteReader(); // Ejecuta la consulta
@@ -38,6 +41,48 @@ namespace DataAccessDB
                 Console.WriteLine("Exception" + ex.Message);
             }
         }
+
+        public static List<string> obtenerPlato(string nombrePlato) 
+        {
+            List<string> datosPlato = new List<string>(); 
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT Nombre, Detalle_Plato, Precio FROM Platos WHERE Nombre = @NombrePlato";
+                    
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@NombrePlato", nombrePlato);
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        //Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
+                        datosPlato.Add(reader.GetString(0));
+                        datosPlato.Add(reader.GetString(1));
+                        decimal precio = reader.GetDecimal(2);
+                        datosPlato.Add(Convert.ToString(precio));
+                    }
+                }
+                return datosPlato;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+                datosPlato.Add("Plato no encontrado");
+                return datosPlato;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+                datosPlato.Add("Plato no encontrado");
+                return datosPlato;
+            }
+        }
+
+        //METODOS DE INSERCIÓN
         public static string InsertUsuarios(string NombreUsuario, string Contraseña, string Nombre)
         {
             try

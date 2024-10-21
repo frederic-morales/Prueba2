@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAccessDB;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +55,22 @@ namespace Login
 
         private void btnAgregarPlato_Click(object sender, EventArgs e)
         {
-            dataGridViewPlatos.Rows.Add("Nombre", "Detalle1", 34);
+            string nombrePlato = txtNombrePlato.Text;
+            List<string> datosPlato = ConeccionDB.obtenerPlato(nombrePlato);
+
+            if (datosPlato.Count() == 3)
+            {
+                dataGridViewPlatos.Rows.Add(datosPlato[0], datosPlato[1], datosPlato[2]);
+                txtNombrePlato.Text = "";
+                //MessageBox.Show("Agrendo plato");
+            }
+            else
+            {
+                MessageBox.Show("No se encontro el plato");
+                txtNombrePlato.Text = "";
+            }
+
+            //MessageBox.Show($"Index: {datosPlato.Count()}, {datosPlato[0]} {datosPlato[1]}, {datosPlato[2]}");
         }
 
         private void button1_Click(object sender, EventArgs e)
