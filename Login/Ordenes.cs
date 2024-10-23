@@ -59,9 +59,9 @@ namespace Login
             string cantidad = txtCantidad.Text;
             List<string> datosPlato = ConeccionDB.obtenerPlato(nombrePlato);
 
-            if (datosPlato.Count() == 3)
+            if (datosPlato.Count() > 0)
             {
-                dataGridViewPlatos.Rows.Add(datosPlato[0], datosPlato[1], datosPlato[2], cantidad);
+                dataGridViewPlatos.Rows.Add(datosPlato[1], datosPlato[2], datosPlato[3], cantidad);
                 txtNombrePlato.Text = "";
                 txtCantidad.Text = "";
                 //MessageBox.Show("Agrendo plato");
@@ -75,7 +75,6 @@ namespace Login
 
             //MessageBox.Show($"Index: {datosPlato.Count()}, {datosPlato[0]} {datosPlato[1]}, {datosPlato[2]}");
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (dataGridViewPlatos.SelectedRows.Count > 0)
@@ -100,8 +99,28 @@ namespace Login
                 string Detalle_Orden = txtDetalleOrden.Text;
                 DateTime Fecha = DateTime.Now;
                 int IdOrden = ConeccionDB.InsertOrden(IdCliente, Convert.ToInt32(mesa), Detalle_Orden, Fecha.Date);
+
+                for (int i = 0; i < dataGridViewPlatos.Rows.Count; i++)
+                {
+
+                    int Cantidad = Convert.ToInt32($"{dataGridViewPlatos.Rows[i].Cells[3].Value}");
+
+                    string IdPlato = ConeccionDB.obtenerPlato($"{dataGridViewPlatos.Rows[i].Cells[0].Value}")[0];
+
+                    string mensaje = ConeccionDB.InsertDetalleOrdenes(IdOrden, Convert.ToInt32(IdPlato), Cantidad);
+
+                    MessageBox.Show(mensaje);   
+                }
+
+                //foreach (string dato in datosPlato)
+                //{
+                //    MessageBox.Show(dato);
+                //}
+
                 MessageBox.Show("Orden Generada con exito");
-                MessageBox.Show($"{IdOrden}");
+                //MessageBox.Show($"{IdOrden}");
+
+
             }
             else
             {

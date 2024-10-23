@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gerbe\\OneDrive\\Escritorio\\Nueva carpeta\\Prueba2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\gerbe\\onedrive\\escritorio\\nueva carpeta\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\gerbe\\onedrive\\escritorio\\nueva carpeta\\prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\gerbe\\OneDrive\\Escritorio\\Nueva carpeta\\Prueba2\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\gerbe\\OneDrive\\Escritorio\\Nueva carpeta\\Prueba2\\Login\\Form1.cs",
+              "RelativeToolTip": "Login\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:39:51.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gerbe\\OneDrive\\Escritorio\\Nueva carpeta\\Prueba2\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\gerbe\\OneDrive\\Escritorio\\Nueva carpeta\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:39:37.571Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
