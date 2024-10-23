@@ -438,10 +438,7 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "BusinessEntity/1.0.0": {
         "runtime": {
-          "BusinessEntity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "BusinessEntity.dll": {}
         }
       }
     }

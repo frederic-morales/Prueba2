@@ -9,9 +9,6 @@ namespace Login
     {
         public Form1()
         {
-            //ConeccionDB.InsertUsuarios("Frederic78", "ContraseñaFrederic", "Ariel");
-            //ConeccionDB.InsertPlatos("Hamburguesa de carne", "Hamburguesa de carne 20 gramos y papas con queso", 32.50);
-            //ConeccionDB.InsertClientes("Frederic_Cliente", 307521982);
             InitializeComponent();
         }
         

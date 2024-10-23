@@ -107,20 +107,15 @@ namespace Login
 
                     string IdPlato = ConeccionDB.obtenerPlato($"{dataGridViewPlatos.Rows[i].Cells[0].Value}")[0];
 
-                    string mensaje = ConeccionDB.InsertDetalleOrdenes(IdOrden, Convert.ToInt32(IdPlato), Cantidad);
+                    int mensaje = ConeccionDB.InsertDetalleOrdenes(IdOrden, Convert.ToInt32(IdPlato), Cantidad);
 
-                    MessageBox.Show(mensaje);   
+                    if (mensaje == 1)
+                    {
+                        MessageBox.Show("Error en la insercion de los platos");
+                    }
+
                 }
-
-                //foreach (string dato in datosPlato)
-                //{
-                //    MessageBox.Show(dato);
-                //}
-
                 MessageBox.Show("Orden Generada con exito");
-                //MessageBox.Show($"{IdOrden}");
-
-
             }
             else
             {

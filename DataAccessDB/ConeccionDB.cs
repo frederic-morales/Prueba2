@@ -382,7 +382,7 @@ namespace DataAccessDB
                 return IdOrdenGenerada;
             }
         }
-        public static string InsertDetalleOrdenes(int IdOrden, int IdPlato, int Cantidad)
+        public static int InsertDetalleOrdenes(int IdOrden, int IdPlato, int Cantidad)
         {
             try
             {
@@ -401,17 +401,17 @@ namespace DataAccessDB
 
                     }
                 }
-                return "Todo bien";
+                return 0;
             }
             catch (SqlException ex)
             {
                 Console.WriteLine("SQlException" + ex.Message);
-                return "SQlException" + ex.Message;
+                return 1;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Exception" + ex.Message);
-                return "SQlException" + ex.Message;
+                return 1;
             }
         }
     }
