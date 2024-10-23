@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,8 +51,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAiwAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T05:21:37.89Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "Login\\Ordenes.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs",
               "RelativeToolTip": "Login\\Ordenes.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T02:00:02.155Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Ordenes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T01:59:54.735Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-22T01:59:54.735Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Login\\Ordenes.Designer.cs",
               "ViewState": "AQIAAF0AAAAAAAAAAAAtwG8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T01:59:07.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T01:59:07.97Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Login\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:17:52.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:17:52.039Z"
             },
             {
               "$type": "Document",
