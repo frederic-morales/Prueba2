@@ -103,20 +103,20 @@ namespace Login
 
             string usuario = txtuser.Text;
             string contraseña = txtpass.Text;
-            //bool aceptarUsuario = ConeccionDB.ValidarUsuario(usuario, contraseña);
+            bool aceptarUsuario = ConeccionDB.ValidarUsuario(usuario, contraseña);
 
-            //if (aceptarUsuario)
-            //{
-            //    {
+            if (aceptarUsuario)
+            {
+                {
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Usuario o contrasña incorrectos");
-            //}
+                }
+            }
+            else
+            {
+               MessageBox.Show("Usuario o contrasña incorrectos");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
