@@ -30,3 +30,19 @@ C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\DataAccessDB\obj\Debug\n
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\DataAccessDB\obj\Debug\net8.0\refint\DataAccessDB.dll
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.pdb
 C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\DataAccessDB\obj\Debug\net8.0\ref\DataAccessDB.dll
+C:\Programa res\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.deps.json
+C:\Programa res\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.dll
+C:\Programa res\Prueba2\DataAccessDB\bin\Debug\net8.0\DataAccessDB.pdb
+C:\Programa res\Prueba2\DataAccessDB\bin\Debug\net8.0\BusinessEntity.dll
+C:\Programa res\Prueba2\DataAccessDB\bin\Debug\net8.0\BusinessEntity.pdb
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.csproj.AssemblyReference.cache
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.AssemblyInfoInputs.cache
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.AssemblyInfo.cs
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.csproj.CoreCompileInputs.cache
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.sourcelink.json
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAcce.81D215AE.Up2Date
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.dll
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\refint\DataAccessDB.dll
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\DataAccessDB.pdb
+C:\Programa res\Prueba2\DataAccessDB\obj\Debug\net8.0\ref\DataAccessDB.dll

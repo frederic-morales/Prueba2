@@ -9,7 +9,8 @@
       "Login/1.0.0": {
         "dependencies": {
           "BusinessEntity": "1.0.0",
-          "DataAccessDB": "1.0.0"
+          "DataAccessDB": "1.0.0",
+          "Microsoft.Data.SqlClient": "5.2.2"
         },
         "runtime": {
           "Login.dll": {}
@@ -402,8 +403,14 @@
       "System.Text.Json/4.7.2": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "BusinessEntity/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2"
+        },
         "runtime": {
-          "BusinessEntity.dll": {}
+          "BusinessEntity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DataAccessDB/1.0.0": {
@@ -413,7 +420,10 @@
           "Microsoft.Data.SqlClient": "5.2.2"
         },
         "runtime": {
-          "DataAccessDB.dll": {}
+          "DataAccessDB.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
