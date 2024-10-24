@@ -49,7 +49,7 @@ namespace DataAccessDB
                 {
                     connection.Open();
 
-                    string query = "SELECT Nombre, Detalle_Plato, Precio FROM Platos WHERE Nombre = @NombrePlato";
+                    string query = "SELECT Id, Nombre, Detalle_Plato, Precio FROM Platos WHERE Nombre = @NombrePlato";
                     
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@NombrePlato", nombrePlato);
@@ -58,9 +58,11 @@ namespace DataAccessDB
                     while (reader.Read())
                     {
                         //Console.WriteLine($"Id:{reader.GetInt32(0)} Nombre:{reader.GetString(1)} Apellidos:{reader.GetString(2)}");
-                        datosPlato.Add(reader.GetString(0));
+                        int id = Convert.ToInt32(reader["ID"]); 
+                        datosPlato.Add(Convert.ToString(id));
                         datosPlato.Add(reader.GetString(1));
-                        decimal precio = reader.GetDecimal(2);
+                        datosPlato.Add(reader.GetString(2));
+                        decimal precio = reader.GetDecimal(3);
                         datosPlato.Add(Convert.ToString(precio));
                     }
                 }
@@ -378,6 +380,38 @@ namespace DataAccessDB
                 Console.WriteLine("Exception" + ex.Message);
                 //return "Error" + ex.Message;
                 return IdOrdenGenerada;
+            }
+        }
+        public static int InsertDetalleOrdenes(int IdOrden, int IdPlato, int Cantidad)
+        {
+            try
+            {
+                string query = @"INSERT INTO DETALLES_ORDEN (IdOrden, IdPlato, Cantidad) 
+                                VALUES (@IdOrden, @IdPlato, @Cantidad);";
+                using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                {
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@IdOrden", IdOrden);
+                        command.Parameters.AddWithValue("@IdPlato", IdPlato);
+                        command.Parameters.AddWithValue("@Cantidad", Cantidad);
+                        
+                        object result = command.ExecuteScalar();
+
+                    }
+                }
+                return 0;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+                return 1;
             }
         }
     }

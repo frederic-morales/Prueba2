@@ -9,11 +9,9 @@ namespace Login
     {
         public Form1()
         {
-            //ConeccionDB.InsertUsuarios("Frederic78", "ContraseñaFrederic", "Ariel");
-            //ConeccionDB.InsertPlatos("Hamburguesa de carne", "Hamburguesa de carne 20 gramos y papas con queso", 32.50);
-            //ConeccionDB.InsertClientes("Frederic_Cliente", 307521982);
             InitializeComponent();
         }
+        
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
 
@@ -107,14 +105,14 @@ namespace Login
             if (aceptarUsuario)
             {
                 {
-                    Form2 form2 = new Form2();
-                    form2.Show();
-                    this.Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
                 }
             }
             else
             {
-                MessageBox.Show("Usuario o contrasña incorrectos");
+               MessageBox.Show("Usuario o contrasña incorrectos");
             }
         }
 

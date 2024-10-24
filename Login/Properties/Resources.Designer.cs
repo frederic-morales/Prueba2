@@ -73,6 +73,56 @@ namespace Login.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_241 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_242 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-242", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_243 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-243", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_244 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-244", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_245 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-245", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_minimize_window_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-minimize-window-24", resourceCulture);
@@ -83,9 +133,119 @@ namespace Login.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_241 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_242 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-242", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_243 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-243", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_244 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-244", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_245 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-245", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview3 {
+            get {
+                object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview4 {
+            get {
+                object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_debug_blanco_removebg_preview5 {
+            get {
+                object obj = ResourceManager.GetObject("logo_debug_blanco-removebg-preview5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

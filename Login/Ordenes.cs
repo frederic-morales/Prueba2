@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Login
 {
@@ -17,6 +18,13 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
 
         private void btnRegresaraMenu_Click(object sender, EventArgs e)
         {
@@ -51,9 +59,9 @@ namespace Login
             string cantidad = txtCantidad.Text;
             List<string> datosPlato = ConeccionDB.obtenerPlato(nombrePlato);
 
-            if (datosPlato.Count() == 3)
+            if (datosPlato.Count() > 0)
             {
-                dataGridViewPlatos.Rows.Add(datosPlato[0], datosPlato[1], datosPlato[2], cantidad);
+                dataGridViewPlatos.Rows.Add(datosPlato[1], datosPlato[2], datosPlato[3], cantidad);
                 txtNombrePlato.Text = "";
                 txtCantidad.Text = "";
                 //MessageBox.Show("Agrendo plato");
@@ -67,7 +75,6 @@ namespace Login
 
             //MessageBox.Show($"Index: {datosPlato.Count()}, {datosPlato[0]} {datosPlato[1]}, {datosPlato[2]}");
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (dataGridViewPlatos.SelectedRows.Count > 0)
@@ -90,10 +97,25 @@ namespace Login
             {
                 string mesa = txtMesa.Text;
                 string Detalle_Orden = txtDetalleOrden.Text;
-                DateTime Fecha = DateTime.Now;  
+                DateTime Fecha = DateTime.Now;
                 int IdOrden = ConeccionDB.InsertOrden(IdCliente, Convert.ToInt32(mesa), Detalle_Orden, Fecha.Date);
+
+                for (int i = 0; i < dataGridViewPlatos.Rows.Count; i++)
+                {
+
+                    int Cantidad = Convert.ToInt32($"{dataGridViewPlatos.Rows[i].Cells[3].Value}");
+
+                    string IdPlato = ConeccionDB.obtenerPlato($"{dataGridViewPlatos.Rows[i].Cells[0].Value}")[0];
+
+                    int mensaje = ConeccionDB.InsertDetalleOrdenes(IdOrden, Convert.ToInt32(IdPlato), Cantidad);
+
+                    if (mensaje == 1)
+                    {
+                        MessageBox.Show("Error en la insercion de los platos");
+                    }
+
+                }
                 MessageBox.Show("Orden Generada con exito");
-                MessageBox.Show($"{IdOrden}");
             }
             else
             {
@@ -101,5 +123,32 @@ namespace Login
             }
         }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Ordenes_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
     }
 }
