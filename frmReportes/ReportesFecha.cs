@@ -37,24 +37,24 @@ namespace frmReportes
                     if (tipoReporte == "Ventas por Día")
                     {
                         query = @"
-                        SELECT Fecha, SUM(Platos.Precio * Detalles_Orden.Cantidad) AS TotalVentas
+                        SELECT Facturas.Fecha, SUM(Platos.Precio * Detalles_Orden.Cantidad) AS TotalVentas
                         FROM Facturas
                         JOIN Ordenes ON Facturas.IdOrden = Ordenes.Id
                         JOIN Detalles_Orden ON Ordenes.Id = Detalles_Orden.IdOrden
                         JOIN Platos ON Detalles_Orden.IdPlato = Platos.Id
-                        WHERE Fecha BETWEEN @fechaInicio AND @fechaFin
-                        GROUP BY Fecha";
+                        WHERE Facturas.Fecha BETWEEN @fechaInicio AND @fechaFin
+                        GROUP BY Facturas.Fecha";
                     }
                     else if (tipoReporte == "Ventas por Mesa")
                     {
                         query = @"
-                        SELECT Ordenes.NumeroMesa AS Mesa, SUM(Platos.Precio * Detalles_Orden.Cantidad) AS TotalVentas
+                        SELECT Ordenes.Mesa AS Mesa, SUM(Platos.Precio * Detalles_Orden.Cantidad) AS TotalVentas
                         FROM Facturas
                         JOIN Ordenes ON Facturas.IdOrden = Ordenes.Id
                         JOIN Detalles_Orden ON Ordenes.Id = Detalles_Orden.IdOrden
                         JOIN Platos ON Detalles_Orden.IdPlato = Platos.Id
-                        WHERE Fecha BETWEEN @fechaInicio AND @fechaFin
-                        GROUP BY Ordenes.NumeroMesa";
+                        WHERE Facturas.Fecha BETWEEN @fechaInicio AND @fechaFin
+                        GROUP BY Ordenes.Mesa";
                     }
                     else if (tipoReporte == "Platos más Vendidos")
                     {

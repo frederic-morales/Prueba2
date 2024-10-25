@@ -13,14 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +32,9 @@
               "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
               "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUBAAARAAAA",
+              "ViewState": "AQIAAG8BAAAAAAAAAAAAAIUBAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:36:45.631Z",
+              "WhenOpened": "2024-10-25T03:50:21.183Z",
               "EditorCaption": ""
             },
             {
@@ -53,22 +45,9 @@
               "RelativeDocumentMoniker": "Login\\Facturas.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs",
               "RelativeToolTip": "Login\\Facturas.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBoAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:35:36.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form2.cs",
-              "RelativeDocumentMoniker": "Login\\Form2.cs",
-              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form2.cs",
-              "RelativeToolTip": "Login\\Form2.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAAF8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:33:00.365Z",
+              "WhenOpened": "2024-10-25T03:50:15.447Z",
               "EditorCaption": ""
             },
             {
@@ -80,19 +59,7 @@
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Facturas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:14:28.077Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form2.cs",
-              "RelativeDocumentMoniker": "Login\\Form2.cs",
-              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Login\\Form2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:38:05.526Z",
+              "WhenOpened": "2024-10-25T03:50:03.476Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

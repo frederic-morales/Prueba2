@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("frmReportes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d61ded0f47ad2e62816b0a54be81b4037ea5d8ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc90fb7ae3c1eb4493d75ab3c191a7b42982e30f")]
 [assembly: System.Reflection.AssemblyProductAttribute("frmReportes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frmReportes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

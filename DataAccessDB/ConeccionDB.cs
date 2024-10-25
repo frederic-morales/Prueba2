@@ -387,7 +387,7 @@ namespace DataAccessDB
                             command.Parameters.AddWithValue("@Fecha", dateTime.Date);
                             command.ExecuteNonQuery();
                         }
-                        mensaje = "Cliente agregado con exito";
+                        mensaje = "Factura creada con exito";
                     }
                 }
                 return mensaje;
