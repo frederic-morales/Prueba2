@@ -1,18 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD48C3A-DBD2-48C0-8047-F139FD9EB408}|frmReportes\\frmReportes.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\frmreportes\\reportesfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD48C3A-DBD2-48C0-8047-F139FD9EB408}|frmReportes\\frmReportes.csproj|solutionrelative:frmreportes\\reportesfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD48C3A-DBD2-48C0-8047-F139FD9EB408}|frmReportes\\frmReportes.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\frmreportes\\reportesfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AD48C3A-DBD2-48C0-8047-F139FD9EB408}|frmReportes\\frmReportes.csproj|solutionrelative:frmreportes\\reportesfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\login\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\login\\detallles_orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\detallles_orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|c:\\users\\admin\\desktop\\nueva carpeta\\prueba2\\dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +70,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConeccionDB.cs",
-              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
-              "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
-              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
-              "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
-              "ViewState": "AQIAAG8BAAAAAAAAAAAAAIUBAAA2AAAA",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form2.cs",
+              "RelativeDocumentMoniker": "Login\\Form2.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form2.cs",
+              "RelativeToolTip": "Login\\Form2.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAADwv1sAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:50:21.183Z",
+              "WhenOpened": "2024-10-25T16:49:27.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Ordenes.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Ordenes.cs",
+              "RelativeDocumentMoniker": "Login\\Ordenes.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Ordenes.cs",
+              "RelativeToolTip": "Login\\Ordenes.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAADwvx4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:25:01.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportesFecha.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\frmReportes\\ReportesFecha.cs",
+              "RelativeDocumentMoniker": "frmReportes\\ReportesFecha.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\frmReportes\\ReportesFecha.cs",
+              "RelativeToolTip": "frmReportes\\ReportesFecha.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswGUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:23:07.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Usuario.cs",
+              "RelativeDocumentMoniker": "Login\\Usuario.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Usuario.cs",
+              "RelativeToolTip": "Login\\Usuario.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAawC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:22:39.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportesFecha.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\frmReportes\\ReportesFecha.cs",
+              "RelativeDocumentMoniker": "frmReportes\\ReportesFecha.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\frmReportes\\ReportesFecha.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmReportes\\ReportesFecha.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:10:07.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Usuario.cs",
+              "RelativeDocumentMoniker": "Login\\Usuario.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:07:22.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Plato.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Plato.cs",
+              "RelativeDocumentMoniker": "Login\\Plato.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Plato.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Plato.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:25:45.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ordenes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Ordenes.cs",
+              "RelativeDocumentMoniker": "Login\\Ordenes.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Ordenes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Ordenes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:25:40.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form2.cs",
+              "RelativeDocumentMoniker": "Login\\Form2.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:25:38.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Detallles_Orden.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Detallles_Orden.cs",
+              "RelativeDocumentMoniker": "Login\\Detallles_Orden.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Detallles_Orden.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Detallles_Orden.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T04:58:47.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Cliente.cs",
+              "RelativeDocumentMoniker": "Login\\Cliente.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Cliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Cliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T04:41:28.037Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T04:28:21.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConeccionDB.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeDocumentMoniker": "DataAccessDB\\ConeccionDB.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\ConeccionDB.cs",
+              "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
+              "ViewState": "AQIAAG8BAAAAAAAAAAAAAIUBAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T03:50:21.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Facturas.cs",
-              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Facturas.cs",
               "RelativeDocumentMoniker": "Login\\Facturas.cs",
-              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Facturas.cs",
               "RelativeToolTip": "Login\\Facturas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T03:50:15.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Facturas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Facturas.cs",
               "RelativeDocumentMoniker": "Login\\Facturas.cs",
-              "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Facturas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\Login\\Facturas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Facturas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:50:03.476Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-25T03:50:03.476Z"
             }
           ]
         }

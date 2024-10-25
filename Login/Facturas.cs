@@ -27,5 +27,12 @@ namespace Login
             string mensaje = ConeccionDB.InsertFacturas(Convert.ToInt32(IdOrden), DescripcionFactura);
             MessageBox.Show(mensaje);
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

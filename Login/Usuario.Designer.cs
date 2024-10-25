@@ -59,9 +59,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(60, 61);
+            label1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(60, 56);
             label1.Name = "label1";
-            label1.Size = new Size(111, 15);
+            label1.Size = new Size(134, 20);
             label1.TabIndex = 1;
             label1.Text = "Nombre De Usuario";
             // 
@@ -85,49 +86,58 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(60, 125);
+            label2.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(60, 120);
             label2.Name = "label2";
-            label2.Size = new Size(67, 15);
+            label2.Size = new Size(85, 20);
             label2.TabIndex = 4;
             label2.Text = "Contraseña";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(60, 192);
+            label3.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(60, 187);
             label3.Name = "label3";
-            label3.Size = new Size(51, 15);
+            label3.Size = new Size(60, 20);
             label3.TabIndex = 5;
             label3.Text = "Nombre";
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(357, 252);
+            btnRegresar.BackColor = Color.SteelBlue;
+            btnRegresar.FlatStyle = FlatStyle.Flat;
+            btnRegresar.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegresar.Location = new Point(265, 252);
             btnRegresar.Margin = new Padding(3, 2, 3, 2);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(82, 32);
+            btnRegresar.Size = new Size(152, 32);
             btnRegresar.TabIndex = 6;
             btnRegresar.Text = "Regresar";
-            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.UseVisualStyleBackColor = false;
             btnRegresar.Click += btnRegresar_Click;
             // 
             // btnAgregarUsuario
             // 
-            btnAgregarUsuario.Location = new Point(221, 252);
+            btnAgregarUsuario.BackColor = Color.Lime;
+            btnAgregarUsuario.FlatStyle = FlatStyle.Flat;
+            btnAgregarUsuario.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAgregarUsuario.Location = new Point(77, 252);
             btnAgregarUsuario.Margin = new Padding(3, 2, 3, 2);
             btnAgregarUsuario.Name = "btnAgregarUsuario";
-            btnAgregarUsuario.Size = new Size(82, 32);
+            btnAgregarUsuario.Size = new Size(164, 32);
             btnAgregarUsuario.TabIndex = 7;
             btnAgregarUsuario.Text = "Agregar";
-            btnAgregarUsuario.UseVisualStyleBackColor = true;
+            btnAgregarUsuario.UseVisualStyleBackColor = false;
             btnAgregarUsuario.Click += btnAgregarUsuario_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(12, 9);
             label4.Name = "label4";
-            label4.Size = new Size(115, 15);
+            label4.Size = new Size(147, 20);
             label4.TabIndex = 8;
             label4.Text = "Registro De Usuarios";
             // 

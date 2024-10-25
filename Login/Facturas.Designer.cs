@@ -39,65 +39,81 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(120, 151);
+            label1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(101, 114);
             label1.Name = "label1";
-            label1.Size = new Size(138, 20);
+            label1.Size = new Size(140, 20);
             label1.TabIndex = 7;
             label1.Text = "Descripcion Factura";
             // 
             // IdOrden
             // 
             IdOrden.AutoSize = true;
-            IdOrden.Location = new Point(156, 90);
+            IdOrden.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            IdOrden.Location = new Point(135, 65);
             IdOrden.Name = "IdOrden";
-            IdOrden.Size = new Size(63, 20);
+            IdOrden.Size = new Size(61, 20);
             IdOrden.TabIndex = 6;
             IdOrden.Text = "IdOrden";
             // 
             // txtDescripcionFactura
             // 
-            txtDescripcionFactura.Location = new Point(282, 148);
+            txtDescripcionFactura.Location = new Point(247, 111);
+            txtDescripcionFactura.Margin = new Padding(3, 2, 3, 2);
             txtDescripcionFactura.Name = "txtDescripcionFactura";
-            txtDescripcionFactura.Size = new Size(327, 27);
+            txtDescripcionFactura.Size = new Size(287, 23);
             txtDescripcionFactura.TabIndex = 5;
             // 
             // txtIdOrden
             // 
-            txtIdOrden.Location = new Point(282, 83);
+            txtIdOrden.Location = new Point(247, 62);
+            txtIdOrden.Margin = new Padding(3, 2, 3, 2);
             txtIdOrden.Name = "txtIdOrden";
-            txtIdOrden.Size = new Size(327, 27);
+            txtIdOrden.Size = new Size(287, 23);
             txtIdOrden.TabIndex = 4;
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(445, 268);
+            btnRegresar.BackColor = Color.SteelBlue;
+            btnRegresar.FlatStyle = FlatStyle.Flat;
+            btnRegresar.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegresar.Location = new Point(389, 201);
+            btnRegresar.Margin = new Padding(3, 2, 3, 2);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(94, 39);
+            btnRegresar.Size = new Size(145, 29);
             btnRegresar.TabIndex = 9;
             btnRegresar.Text = "Regresar";
-            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.UseVisualStyleBackColor = false;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // btnGenerarFactura
             // 
-            btnGenerarFactura.Location = new Point(245, 268);
+            btnGenerarFactura.BackColor = Color.Lime;
+            btnGenerarFactura.FlatStyle = FlatStyle.Flat;
+            btnGenerarFactura.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnGenerarFactura.Location = new Point(183, 201);
+            btnGenerarFactura.Margin = new Padding(3, 2, 3, 2);
             btnGenerarFactura.Name = "btnGenerarFactura";
-            btnGenerarFactura.Size = new Size(142, 39);
+            btnGenerarFactura.Size = new Size(140, 29);
             btnGenerarFactura.TabIndex = 8;
             btnGenerarFactura.Text = "Generar Factura";
-            btnGenerarFactura.UseVisualStyleBackColor = true;
+            btnGenerarFactura.UseVisualStyleBackColor = false;
             btnGenerarFactura.Click += btnGenerarFactura_Click;
             // 
             // Facturas
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.LightYellow;
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(700, 338);
             Controls.Add(btnRegresar);
             Controls.Add(btnGenerarFactura);
             Controls.Add(label1);
             Controls.Add(IdOrden);
             Controls.Add(txtDescripcionFactura);
             Controls.Add(txtIdOrden);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Facturas";
             Text = "Facturas";
             ResumeLayout(false);

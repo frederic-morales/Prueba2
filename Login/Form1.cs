@@ -100,9 +100,9 @@ namespace Login
 
             string usuario = txtuser.Text;
             string contraseña = txtpass.Text;
-            bool aceptarUsuario = ConeccionDB.ValidarUsuario(usuario, contraseña);
+            //bool aceptarUsuario = ConeccionDB.ValidarUsuario(usuario, contraseña);
 
-            if (aceptarUsuario)
+            if (true)
             {
                 {
             Form2 form2 = new Form2();

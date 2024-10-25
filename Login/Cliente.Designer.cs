@@ -48,24 +48,26 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(49, 18);
+            label1.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(38, 40);
             label1.Name = "label1";
-            label1.Size = new Size(51, 15);
+            label1.Size = new Size(72, 23);
             label1.TabIndex = 0;
             label1.Text = "Nombre";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(58, 86);
+            label2.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(38, 102);
             label2.Name = "label2";
-            label2.Size = new Size(23, 15);
+            label2.Size = new Size(31, 23);
             label2.TabIndex = 1;
             label2.Text = "Nit";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(58, 50);
+            txtNombre.Location = new Point(38, 71);
             txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(456, 23);
@@ -73,7 +75,7 @@
             // 
             // txtNIT
             // 
-            txtNIT.Location = new Point(58, 103);
+            txtNIT.Location = new Point(38, 127);
             txtNIT.Margin = new Padding(3, 2, 3, 2);
             txtNIT.Name = "txtNIT";
             txtNIT.Size = new Size(190, 23);
@@ -81,24 +83,32 @@
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(322, 168);
+            btnRegresar.BackColor = Color.Red;
+            btnRegresar.FlatStyle = FlatStyle.Flat;
+            btnRegresar.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegresar.ForeColor = SystemColors.ActiveCaptionText;
+            btnRegresar.ImageAlign = ContentAlignment.BottomLeft;
+            btnRegresar.Location = new Point(289, 191);
             btnRegresar.Margin = new Padding(3, 2, 3, 2);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(82, 32);
+            btnRegresar.Size = new Size(149, 32);
             btnRegresar.TabIndex = 4;
             btnRegresar.Text = "Regresar";
-            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.UseVisualStyleBackColor = false;
             btnRegresar.Click += btnRegresar_Click;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(166, 168);
+            btnAgregar.BackColor = Color.FromArgb(0, 192, 0);
+            btnAgregar.FlatStyle = FlatStyle.Flat;
+            btnAgregar.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAgregar.Location = new Point(81, 191);
             btnAgregar.Margin = new Padding(3, 2, 3, 2);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(82, 32);
+            btnAgregar.Size = new Size(156, 32);
             btnAgregar.TabIndex = 5;
             btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.UseVisualStyleBackColor = false;
             btnAgregar.Click += btnAgregar_Click;
             // 
             // panel1
@@ -150,11 +160,14 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(225, 0);
+            label3.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(206, 9);
             label3.Name = "label3";
-            label3.Size = new Size(109, 15);
+            label3.Size = new Size(162, 23);
             label3.TabIndex = 7;
             label3.Text = "Control De Clientes";
+            label3.TextAlign = ContentAlignment.TopCenter;
+            label3.Click += label3_Click;
             // 
             // Cliente
             // 

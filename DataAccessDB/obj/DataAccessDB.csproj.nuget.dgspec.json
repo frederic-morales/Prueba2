@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+    "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
         "projectName": "BusinessEntity",
-        "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
-        "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,17 +74,21 @@
         }
       }
     },
-    "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
+    "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
         "projectName": "DataAccessDB",
-        "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
-        "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\DataAccessDB.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\DataAccessDB\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,15 +96,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
-                "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
+              "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Nueva carpeta\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
               }
             }
           }

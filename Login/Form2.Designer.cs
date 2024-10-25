@@ -47,42 +47,59 @@
             // 
             // buttonCLientes
             // 
-            buttonCLientes.Location = new Point(222, 108);
+            buttonCLientes.BackColor = Color.DarkKhaki;
+            buttonCLientes.FlatStyle = FlatStyle.Flat;
+            buttonCLientes.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonCLientes.Location = new Point(194, 81);
+            buttonCLientes.Margin = new Padding(3, 2, 3, 2);
             buttonCLientes.Name = "buttonCLientes";
-            buttonCLientes.Size = new Size(110, 44);
+            buttonCLientes.Size = new Size(96, 33);
             buttonCLientes.TabIndex = 0;
             buttonCLientes.Text = "Clientes";
-            buttonCLientes.UseVisualStyleBackColor = true;
+            buttonCLientes.UseVisualStyleBackColor = false;
             buttonCLientes.Click += buttonCLientes_Click;
             // 
             // buttonPlatos
             // 
-            buttonPlatos.Location = new Point(66, 233);
+            buttonPlatos.BackColor = Color.Teal;
+            buttonPlatos.FlatStyle = FlatStyle.Flat;
+            buttonPlatos.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonPlatos.Location = new Point(58, 175);
+            buttonPlatos.Margin = new Padding(3, 2, 3, 2);
             buttonPlatos.Name = "buttonPlatos";
-            buttonPlatos.Size = new Size(110, 52);
+            buttonPlatos.Size = new Size(96, 39);
             buttonPlatos.TabIndex = 1;
             buttonPlatos.Text = "Platos";
-            buttonPlatos.UseVisualStyleBackColor = true;
+            buttonPlatos.UseVisualStyleBackColor = false;
             buttonPlatos.Click += buttonPlatos_Click;
             // 
             // buttonUsuario
             // 
-            buttonUsuario.Location = new Point(222, 233);
+            buttonUsuario.BackColor = Color.SteelBlue;
+            buttonUsuario.FlatStyle = FlatStyle.Flat;
+            buttonUsuario.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonUsuario.Location = new Point(194, 175);
+            buttonUsuario.Margin = new Padding(3, 2, 3, 2);
             buttonUsuario.Name = "buttonUsuario";
-            buttonUsuario.Size = new Size(104, 52);
+            buttonUsuario.Size = new Size(91, 39);
             buttonUsuario.TabIndex = 2;
             buttonUsuario.Text = "Usuario";
-            buttonUsuario.UseVisualStyleBackColor = true;
+            buttonUsuario.UseVisualStyleBackColor = false;
             buttonUsuario.Click += buttonUsuario_Click;
             // 
             // btnOrdenes
             // 
-            btnOrdenes.Location = new Point(66, 108);
+            btnOrdenes.BackColor = Color.Peru;
+            btnOrdenes.FlatStyle = FlatStyle.Flat;
+            btnOrdenes.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnOrdenes.ImageAlign = ContentAlignment.TopRight;
+            btnOrdenes.Location = new Point(58, 81);
+            btnOrdenes.Margin = new Padding(3, 2, 3, 2);
             btnOrdenes.Name = "btnOrdenes";
-            btnOrdenes.Size = new Size(104, 44);
+            btnOrdenes.Size = new Size(91, 33);
             btnOrdenes.TabIndex = 3;
             btnOrdenes.Text = "Ordenes";
-            btnOrdenes.UseVisualStyleBackColor = true;
+            btnOrdenes.UseVisualStyleBackColor = false;
             btnOrdenes.Click += btnOrdenes_Click;
             // 
             // panel1
@@ -92,18 +109,16 @@
             panel1.Controls.Add(pictureBox3);
             panel1.Controls.Add(BtnCerrar);
             panel1.Dock = DockStyle.Right;
-            panel1.Location = new Point(530, 0);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(464, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(286, 388);
+            panel1.Size = new Size(250, 291);
             panel1.TabIndex = 4;
             panel1.MouseDown += panel1_MouseDown;
             // 
             // Btnminimizar
             // 
             Btnminimizar.Image = Properties.Resources.icons8_minimize_window_242;
-            Btnminimizar.Location = new Point(221, 4);
-            Btnminimizar.Margin = new Padding(3, 4, 3, 4);
+            Btnminimizar.Location = new Point(193, 3);
             Btnminimizar.Name = "Btnminimizar";
             Btnminimizar.Size = new Size(24, 24);
             Btnminimizar.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -114,10 +129,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.logo_debug_blanco_removebg_preview2;
-            pictureBox3.Location = new Point(31, 56);
-            pictureBox3.Margin = new Padding(3, 4, 3, 4);
+            pictureBox3.Location = new Point(27, 42);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(241, 260);
+            pictureBox3.Size = new Size(211, 195);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
@@ -126,8 +140,7 @@
             // BtnCerrar
             // 
             BtnCerrar.Image = Properties.Resources.icons8_close_window_242;
-            BtnCerrar.Location = new Point(255, 4);
-            BtnCerrar.Margin = new Padding(3, 4, 3, 4);
+            BtnCerrar.Location = new Point(223, 3);
             BtnCerrar.Name = "BtnCerrar";
             BtnCerrar.Size = new Size(24, 24);
             BtnCerrar.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -138,38 +151,47 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(110, 4);
+            label1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(58, 18);
             label1.Name = "label1";
-            label1.Size = new Size(361, 20);
+            label1.Size = new Size(351, 20);
             label1.TabIndex = 5;
             label1.Text = "¡Bienvenidos a Sistema De Gestion De Pedidos (SGP)!";
             // 
             // button1
             // 
-            button1.Location = new Point(372, 233);
+            button1.BackColor = Color.LightSteelBlue;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(326, 175);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(110, 52);
+            button1.Size = new Size(96, 39);
             button1.TabIndex = 6;
             button1.Text = "Reportes";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // buttonFacturas
             // 
-            buttonFacturas.Location = new Point(372, 108);
+            buttonFacturas.BackColor = Color.YellowGreen;
+            buttonFacturas.FlatStyle = FlatStyle.Flat;
+            buttonFacturas.Font = new Font("Impact", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonFacturas.Location = new Point(326, 81);
+            buttonFacturas.Margin = new Padding(3, 2, 3, 2);
             buttonFacturas.Name = "buttonFacturas";
-            buttonFacturas.Size = new Size(110, 44);
+            buttonFacturas.Size = new Size(96, 33);
             buttonFacturas.TabIndex = 7;
             buttonFacturas.Text = "Facturas";
-            buttonFacturas.UseVisualStyleBackColor = true;
+            buttonFacturas.UseVisualStyleBackColor = false;
             buttonFacturas.Click += buttonFacturas_Click;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightYellow;
-            ClientSize = new Size(816, 388);
+            ClientSize = new Size(714, 291);
             Controls.Add(buttonFacturas);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -179,6 +201,7 @@
             Controls.Add(buttonPlatos);
             Controls.Add(buttonCLientes);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form2";
             Text = "Form2";
             MouseDown += Form2_MouseDown;

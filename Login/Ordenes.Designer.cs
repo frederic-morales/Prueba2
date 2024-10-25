@@ -90,62 +90,74 @@
             // nombrecliente
             // 
             nombrecliente.AutoSize = true;
+            nombrecliente.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             nombrecliente.Location = new Point(24, 326);
             nombrecliente.Name = "nombrecliente";
-            nombrecliente.Size = new Size(111, 15);
+            nombrecliente.Size = new Size(129, 19);
             nombrecliente.TabIndex = 4;
             nombrecliente.Text = "Nombre Del Cliente";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(24, 56);
             label2.Name = "label2";
-            label2.Size = new Size(101, 15);
+            label2.Size = new Size(117, 19);
             label2.TabIndex = 5;
             label2.Text = "Nombre Del Plato";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(342, 335);
+            label3.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(342, 326);
             label3.Name = "label3";
-            label3.Size = new Size(35, 15);
+            label3.Size = new Size(43, 19);
             label3.TabIndex = 6;
             label3.Text = "Mesa";
             label3.Click += label3_Click;
             // 
             // btnGenerarOrden
             // 
+            btnGenerarOrden.BackColor = Color.Lime;
+            btnGenerarOrden.FlatStyle = FlatStyle.Flat;
+            btnGenerarOrden.Font = new Font("Impact", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnGenerarOrden.Location = new Point(3, 291);
             btnGenerarOrden.Margin = new Padding(3, 2, 3, 2);
             btnGenerarOrden.Name = "btnGenerarOrden";
             btnGenerarOrden.Size = new Size(80, 48);
             btnGenerarOrden.TabIndex = 7;
             btnGenerarOrden.Text = "Finzalizar Orden";
-            btnGenerarOrden.UseVisualStyleBackColor = true;
+            btnGenerarOrden.UseVisualStyleBackColor = false;
             btnGenerarOrden.Click += btnGenerarOrden_Click;
             // 
             // btnRegresaraMenu
             // 
+            btnRegresaraMenu.BackColor = Color.MintCream;
+            btnRegresaraMenu.FlatStyle = FlatStyle.Flat;
+            btnRegresaraMenu.Font = new Font("Impact", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnRegresaraMenu.Location = new Point(105, 291);
             btnRegresaraMenu.Margin = new Padding(3, 2, 3, 2);
             btnRegresaraMenu.Name = "btnRegresaraMenu";
             btnRegresaraMenu.Size = new Size(82, 48);
             btnRegresaraMenu.TabIndex = 8;
             btnRegresaraMenu.Text = "Regresar";
-            btnRegresaraMenu.UseVisualStyleBackColor = true;
+            btnRegresaraMenu.UseVisualStyleBackColor = false;
             btnRegresaraMenu.Click += btnRegresaraMenu_Click;
             // 
             // btnAgregarPlato
             // 
+            btnAgregarPlato.BackColor = Color.Lime;
+            btnAgregarPlato.FlatStyle = FlatStyle.Flat;
+            btnAgregarPlato.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnAgregarPlato.Location = new Point(424, 79);
             btnAgregarPlato.Margin = new Padding(3, 2, 3, 2);
             btnAgregarPlato.Name = "btnAgregarPlato";
             btnAgregarPlato.Size = new Size(123, 32);
             btnAgregarPlato.TabIndex = 11;
             btnAgregarPlato.Text = "Agregar Plato";
-            btnAgregarPlato.UseVisualStyleBackColor = true;
+            btnAgregarPlato.UseVisualStyleBackColor = false;
             btnAgregarPlato.Click += btnAgregarPlato_Click;
             // 
             // txtNitCliente
@@ -159,27 +171,30 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(210, 326);
             label1.Name = "label1";
-            label1.Size = new Size(25, 15);
+            label1.Size = new Size(28, 19);
             label1.TabIndex = 13;
             label1.Text = "NIT";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 0);
+            label4.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(24, 9);
             label4.Name = "label4";
-            label4.Size = new Size(153, 15);
+            label4.Size = new Size(194, 20);
             label4.TabIndex = 14;
             label4.Text = "Ingrese los platos a la orden";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.Location = new Point(24, 116);
             label5.Name = "label5";
-            label5.Size = new Size(142, 15);
+            label5.Size = new Size(175, 19);
             label5.TabIndex = 15;
             label5.Text = "Platos listos para ordenar:";
             // 
@@ -187,7 +202,7 @@
             // 
             dataGridViewPlatos.AllowUserToAddRows = false;
             dataGridViewPlatos.AllowUserToDeleteRows = false;
-            dataGridViewPlatos.BackgroundColor = SystemColors.Control;
+            dataGridViewPlatos.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridViewPlatos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewPlatos.Columns.AddRange(new DataGridViewColumn[] { Nombre, Detalle, Precio, Cantidad });
             dataGridViewPlatos.Location = new Point(24, 142);
@@ -232,13 +247,17 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Red;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(3, 252);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(186, 35);
             button1.TabIndex = 17;
             button1.Text = "Eliminar plato de la orden";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // txtCantidad
@@ -252,9 +271,10 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.Location = new Point(255, 56);
             label6.Name = "label6";
-            label6.Size = new Size(55, 15);
+            label6.Size = new Size(66, 19);
             label6.TabIndex = 19;
             label6.Text = "Cantidad";
             // 
@@ -269,9 +289,10 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.Font = new Font("Impact", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.Location = new Point(468, 332);
             label7.Name = "label7";
-            label7.Size = new Size(79, 15);
+            label7.Size = new Size(94, 19);
             label7.TabIndex = 21;
             label7.Text = "Detalle Orden";
             // 
