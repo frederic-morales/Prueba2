@@ -35,3 +35,4 @@ C:\Programa res\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.dll
 C:\Programa res\Prueba2\BusinessEntity\obj\Debug\net8.0\refint\BusinessEntity.dll
 C:\Programa res\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.pdb
 C:\Programa res\Prueba2\BusinessEntity\obj\Debug\net8.0\ref\BusinessEntity.dll
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\BusinessEntity\obj\Debug\net8.0\BusinessEntity.csproj.AssemblyReference.cache

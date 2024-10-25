@@ -668,6 +668,22 @@
         "runtime": {
           "bin/placeholder/DataAccessDB.dll": {}
         }
+      },
+      "frmReportes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2"
+        },
+        "compile": {
+          "bin/placeholder/frmReportes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/frmReportes.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -1822,29 +1838,35 @@
       "type": "project",
       "path": "../DataAccessDB/DataAccessDB.csproj",
       "msbuildProject": "../DataAccessDB/DataAccessDB.csproj"
+    },
+    "frmReportes/1.0.0": {
+      "type": "project",
+      "path": "../frmReportes/frmReportes.csproj",
+      "msbuildProject": "../frmReportes/frmReportes.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "BusinessEntity >= 1.0.0",
       "DataAccessDB >= 1.0.0",
-      "Microsoft.Data.SqlClient >= 5.2.2"
+      "Microsoft.Data.SqlClient >= 5.2.2",
+      "frmReportes >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\50255\\.nuget\\packages\\": {}
+    "C:\\Users\\tocom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programa res\\Prueba2\\Login\\Login.csproj",
+      "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "C:\\Programa res\\Prueba2\\Login\\Login.csproj",
-      "packagesPath": "C:\\Users\\50255\\.nuget\\packages\\",
-      "outputPath": "C:\\Programa res\\Prueba2\\Login\\obj\\",
+      "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Login.csproj",
+      "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\50255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1852,17 +1874,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Programa res\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
-              "projectPath": "C:\\Programa res\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
+            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj": {
+              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj"
             },
-            "C:\\Programa res\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
-              "projectPath": "C:\\Programa res\\Prueba2\\DataAccessDB\\DataAccessDB.csproj"
+            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj": {
+              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\DataAccessDB\\DataAccessDB.csproj"
+            },
+            "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\frmReportes\\frmReportes.csproj": {
+              "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\frmReportes\\frmReportes.csproj"
             }
           }
         }
@@ -1906,7 +1932,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

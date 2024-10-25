@@ -10,7 +10,8 @@
         "dependencies": {
           "BusinessEntity": "1.0.0",
           "DataAccessDB": "1.0.0",
-          "Microsoft.Data.SqlClient": "5.2.2"
+          "Microsoft.Data.SqlClient": "5.2.2",
+          "frmReportes": "1.0.0"
         },
         "runtime": {
           "Login.dll": {}
@@ -407,10 +408,7 @@
           "Microsoft.Data.SqlClient": "5.2.2"
         },
         "runtime": {
-          "BusinessEntity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "BusinessEntity.dll": {}
         }
       },
       "DataAccessDB/1.0.0": {
@@ -420,10 +418,15 @@
           "Microsoft.Data.SqlClient": "5.2.2"
         },
         "runtime": {
-          "DataAccessDB.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataAccessDB.dll": {}
+        }
+      },
+      "frmReportes/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2"
+        },
+        "runtime": {
+          "frmReportes.dll": {}
         }
       }
     }
@@ -685,6 +688,11 @@
       "sha512": ""
     },
     "DataAccessDB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "frmReportes/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

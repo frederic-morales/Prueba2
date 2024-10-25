@@ -8,6 +8,9 @@
     <Compile Update="Detallles_Orden.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Facturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

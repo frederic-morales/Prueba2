@@ -81,5 +81,10 @@ namespace Login
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void Plato_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

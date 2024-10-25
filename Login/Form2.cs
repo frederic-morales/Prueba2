@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using frmReportes;
 
 namespace Login
 {
@@ -81,6 +82,20 @@ namespace Login
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmReportes.Form1 formReportes = new frmReportes.Form1();
+            formReportes.Show();
+            this.Hide();
+        }
+
+        private void buttonFacturas_Click(object sender, EventArgs e)
+        {
+            Facturas facturas = new Facturas(); 
+            facturas.Show();
+            this.Hide();
         }
     }
 }

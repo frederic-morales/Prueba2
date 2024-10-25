@@ -241,3 +241,9 @@ C:\Programa res\Prueba2\Login\obj\Debug\net8.0-windows\refint\Login.dll
 C:\Programa res\Prueba2\Login\obj\Debug\net8.0-windows\Login.pdb
 C:\Programa res\Prueba2\Login\obj\Debug\net8.0-windows\Login.genruntimeconfig.cache
 C:\Programa res\Prueba2\Login\obj\Debug\net8.0-windows\ref\Login.dll
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\bin\Debug\net8.0-windows\frmReportes.deps.json
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\bin\Debug\net8.0-windows\frmReportes.runtimeconfig.json
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\bin\Debug\net8.0-windows\frmReportes.exe
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\bin\Debug\net8.0-windows\frmReportes.dll
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\bin\Debug\net8.0-windows\frmReportes.pdb
+C:\Users\tocom\Desktop\Proyecto Final PROGRA II\Prueba2\Login\obj\Debug\net8.0-windows\Login.Facturas.resources

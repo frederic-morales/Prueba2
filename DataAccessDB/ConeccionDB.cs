@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using BusinessEntity;
 using System.Text;
 using System.Security.Cryptography;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DataAccessDB
 {
@@ -337,6 +338,69 @@ namespace DataAccessDB
             {
                 Console.WriteLine("Error: " + ex.Message);
                 return false;
+            }
+        }
+
+        public static string InsertFacturas(int IdOrden, string Detalle_Factura)
+        {
+            try
+            {
+                bool ordenNoEcontrada = false;
+                string mensaje = "Nada de nada";
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT Id FROM ORDENES WHERE Id = @IdOrden";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@IdOrden", IdOrden);
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                mensaje = "Orden Econtrada";
+                                ordenNoEcontrada = true;
+                            }
+
+                            else
+                            {
+                                mensaje = "Orden no encontrada";
+                                ordenNoEcontrada = false;
+                            }
+                        }
+                    }
+                }
+
+                if (ordenNoEcontrada)
+                {
+                    string query = "INSERT INTO FACTURAS (IdOrden, Detalle_Factura, Fecha) VALUES (@IdOrden, @Detalle_Factura, @Fecha);";
+                    using (SqlConnection connection = new SqlConnection(connectionString)) // Uso de 'using' para manejar la conexión y liberar recursos automáticamente
+                    {
+                        connection.Open(); // Abre la conexión
+                        using (SqlCommand command = new SqlCommand(query, connection)) // Preparar el comando con la consulta y la conexión
+                        {
+                            DateTime dateTime = DateTime.Now;
+                            command.Parameters.AddWithValue("@IdOrden", IdOrden);
+                            command.Parameters.AddWithValue("@Detalle_Factura", Detalle_Factura);
+                            command.Parameters.AddWithValue("@Fecha", dateTime.Date);
+                            command.ExecuteNonQuery();
+                        }
+                        mensaje = "Cliente agregado con exito";
+                    }
+                }
+                return mensaje;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("SQlException" + ex.Message);
+                return "SQlException" + ex.Message;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception" + ex.Message);
+                return "Exception" + ex.Message;
             }
         }
 

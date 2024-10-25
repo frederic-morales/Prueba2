@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj" />
     <ProjectReference Include="..\DataAccessDB\DataAccessDB.csproj" />
+    <ProjectReference Include="..\frmReportes\frmReportes.csproj" />
   </ItemGroup>
 
   <ItemGroup>

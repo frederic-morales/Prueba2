@@ -1687,19 +1687,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\50255\\.nuget\\packages\\": {}
+    "C:\\Users\\tocom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programa res\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+      "projectUniqueName": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
       "projectName": "BusinessEntity",
-      "projectPath": "C:\\Programa res\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
-      "packagesPath": "C:\\Users\\50255\\.nuget\\packages\\",
-      "outputPath": "C:\\Programa res\\Prueba2\\BusinessEntity\\obj\\",
+      "projectPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\BusinessEntity.csproj",
+      "packagesPath": "C:\\Users\\tocom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\BusinessEntity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\50255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tocom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1707,6 +1707,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1751,7 +1752,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
