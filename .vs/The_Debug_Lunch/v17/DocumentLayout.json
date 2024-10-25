@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{A5EB24A9-3AE2-420E-908E-870606AF3EF1}|DataAccessDB\\DataAccessDB.csproj|solutionrelative:dataaccessdb\\conecciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|c:\\users\\tocom\\desktop\\proyecto final progra ii\\prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3868582-A71E-4BB6-BBA9-4BB0DE713A30}|Login\\Login.csproj|solutionrelative:login\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "DataAccessDB\\ConeccionDB.cs",
               "ViewState": "AQIAAHgBAAAAAAAAAAAAAJ0BAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:03:57.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T02:03:57.902Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "Login\\Ordenes.cs",
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs",
               "RelativeToolTip": "Login\\Ordenes.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAAG8AAAAkAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T02:03:46.587Z",
               "EditorCaption": ""
@@ -67,8 +66,7 @@
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Ordenes.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Ordenes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:03:40.934Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-23T02:03:40.934Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "ToolTip": "C:\\Users\\tocom\\Desktop\\Proyecto Final PROGRA II\\Prueba2\\Login\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T00:39:37.571Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-23T00:39:37.571Z"
             }
           ]
         }
